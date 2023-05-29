@@ -1,1 +1,17 @@
 # telegram_bot_jabko
+
+### Описание
+
+Бот предназначен для парсинга сайта с целью анализа цен по сравнению с предыдущим запросом на сканирование. Или автоматическим запросом через интервал времени. 
+
+### Требования 
+
+- Парсинг продуктов по конкретным категориям 
+- Запись всех продуктов по всем категориям в бд 
+
+
+//TODO: create user if not exist when chat is first created 
+//TODO: make history model 
+//TODO: make compare system (in digit and percent with text mark)
+//TODO: make automatically scan system 
+
