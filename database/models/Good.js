@@ -5,7 +5,7 @@ class Good extends Model { }
 
 Good.init({
     id: { type: DataTypes.INTEGER, primaryKey: true, unique: true, autoIncrement: true},
-    name: {type: DataTypes.STRING},
+    name: {type: DataTypes.STRING, unique: true},
     url: { type: DataTypes.STRING},
     price_uah: { type: DataTypes.DECIMAL },
     price_usd: { type: DataTypes.DECIMAL },

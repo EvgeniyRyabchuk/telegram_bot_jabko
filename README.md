@@ -14,4 +14,5 @@
 //TODO: make history model 
 //TODO: make compare system (in digit and percent with text mark)
 //TODO: make automatically scan system 
-
+//TODO: make migration file 
+//TODO: subcategories 

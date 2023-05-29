@@ -10,6 +10,15 @@ const { JSDOM } = jsdom;
 
 
 const getAllCategories = async () => {
+
+    // const limit2 = 3;
+    // let document1 = (await getJsDomByUrl(`https://rock-star.com.ua/keyboards/digital-piano/?limit=${limit2}`)).window.document;
+    // const containers1 = document1.querySelectorAll(".product-thumb");
+    // console.log(containers1.length, `limit = ${limit2}`);
+    //
+    //
+    // return;
+
     try {
         let dom = await getJsDomByUrl(url);
         let result = [];
@@ -59,6 +68,7 @@ const getJsDomByUrl = async (url) => {
     // })
     // const html = await response.text();
 
+    // saveHtmlDoc(html);
 
 
     return new JSDOM(`${html}`);
@@ -88,6 +98,9 @@ const fromTextToMoney = (text) => {
 // get all the goods by category
 const getAllGoodsByCategory = async (category) => {
     console.log(' ================================= start scan =================================');
+
+    const changedGoods = [];
+
     let document = (await getJsDomByUrl(`${category.url}`)).window.document;
     const totalPage = document.querySelector(".pagination > .pag-item:nth-last-child(2)").textContent;
     const perPage = 24;
@@ -112,9 +125,24 @@ const getAllGoodsByCategory = async (category) => {
             const name = container.querySelector('.slide-title > span').textContent;
             const url = container.querySelector('.product_link').getAttribute('href');
             const price_uah = fromTextToMoney(container.querySelector('.price-cur > .uah > span').textContent);
-            const price_usd = (price_uah / currencyBuy).toFixed(2)
+            const price_usd = (price_uah / currencyBuy).toFixed(2);
             console.log(name, url, price_uah, price_usd);
-            await Good.create({ name, url, price_uah, price_usd, dollar: currencyBuy, categoryId: category.id});
+
+            let [good, created] = await Good.findOrCreate({
+                where: { name },
+                defaults: {
+                    name, url, price_uah, price_usd, dollar: currencyBuy, categoryId: category.id
+                }
+            });
+
+
+            if(good.price_uah != price_uah && !created) {
+                changedGoods.push({ good, oldPriceUah: good.price_uah, newPriceUah: price_uah});
+                Good.update({ price_uah, price_usd }, {
+                    where: { id: good.id }
+                });
+                console.log("changed");
+            }
         }
 
         currentPage++;
@@ -127,6 +155,8 @@ const getAllGoodsByCategory = async (category) => {
     // console.log(containers1.length, `limit = ${limit2}`);
 
     console.log(' ================================= scan is end =================================');
+
+    return changedGoods;
 }
 
 module.exports = {

@@ -28,6 +28,7 @@ const bot = new TelegramApi(token, {
 
 const fs = require('fs');
 const writeLog = require('./src/logger.js');
+const http = require("http");
 
 
 bot.setMyCommands([
@@ -47,59 +48,32 @@ var options = {
   };
 
 
-function push()
+
+async function check()
 {
-    let answer = '';
-    try
-    {
-
+    try {
+        const categories = await Category.findAll();
+        const changedPriceGoods = await getAllGoodsByCategory(categories[2]);
+        if(changedPriceGoods.length === 0)
+            return "Цены остались на месте";
+        return changedPriceGoods.map(changedGood => {
+            return `Name = <a href="${changedGood.good.url}"> ${changedGood.good.name} </a> =
+             Before <s>${changedGood.oldPriceUah}</s> -
+             After <b>${changedGood.newPriceUah}</b>.\n`
+        }).join('---');
     }
-    catch(e)
-    {
-        return 'Проблемы с коммандой ' + e;
+    catch(e) {
+        return 'Ошибка. Попробуйте снова позже!' + e;
     }
-    return 'Коммит прошёл успешно';
 }
-
-
-function pull(chatId)
-{
-    let res;
-    try
-    {
-
-    }
-    catch(e)
-    {
-        console.log(e);
-        return 'Проблемы с коммандой ' + res;
-    }
-    return 'Стягивание прошло успешно'; ;
-}
-
-
-function check()
-{
-    let answer = '';
-    try
-    {
-
-    }
-    catch(e)
-    {
-        return 'Проблемы с коммандой ' + e;
-    }
-    return 'Коммит прошёл успешно';
-}
-
 
 const start = async () =>
 {
 
     writeLog('Service was started 123');
     await sequelize.authenticate();
-    await sequelize.sync({ force: true, alter : true });
-
+    await sequelize.sync({ alter : { drop: false } });
+    /*force: true*/
     // Good.destroy({
     //     where: {},
     //     truncate: true
@@ -107,7 +81,9 @@ const start = async () =>
 
     const categories = await saveCategoriesIfNotExist();
     // console.log(categories.map(c => c.id).join(','));
-    await getAllGoodsByCategory(categories[2]);
+    // const changedPriceGoods = await getAllGoodsByCategory(categories[2]);
+
+    // console.log(changedPriceGoods);
 
     bot.on('message', async msg => {
         const text = msg.text;
@@ -124,9 +100,9 @@ const start = async () =>
             else if (text == '/info')
                 return bot.sendMessage(chatId, `Тебя зовут ${msg.from.first_name} ${msg.from.lasth_name}`);
             else if(text == '/check') {
-                const answer = check();
+                const answer = await check();
                 writeLog(answer);
-                return bot.sendMessage(chatId, answer);
+                return bot.sendMessage(chatId, answer, {parse_mode: 'HTML'});
             } else {
                 let answer = 'command not found';
                 //установка кнопок
