@@ -30,6 +30,9 @@ const fs = require('fs');
 const writeLog = require('./src/logger.js');
 const http = require("http");
 
+const cron = require('node-cron');
+
+
 
 bot.setMyCommands([
     { command: '/start', description: 'sdfgsdfg' }, 
@@ -47,8 +50,6 @@ var options = {
     })
   };
 
-
-
 async function check()
 {
     try {
@@ -57,20 +58,16 @@ async function check()
         if(changedPriceGoods.length === 0)
             return "Цены остались на месте";
         return changedPriceGoods.map(changedGood => {
-            return `Name = <a href="${changedGood.good.url}"> ${changedGood.good.name} </a> =
-             Before <s>${changedGood.oldPriceUah}</s> -
-             After <b>${changedGood.newPriceUah}</b>.\n`
-        }).join('---');
+            return `<a href="${changedGood.good.url}"> ${changedGood.good.name}</a>
+Before <s>${changedGood.oldPriceUah}</s> -
+After <b>${changedGood.newPriceUah}</b>.`}).join('\n-------------------------\n');
     }
     catch(e) {
         return 'Ошибка. Попробуйте снова позже!' + e;
     }
 }
 
-const start = async () =>
-{
-
-    writeLog('Service was started 123');
+const initializing = async () => {
     await sequelize.authenticate();
     await sequelize.sync({ alter : { drop: false } });
     /*force: true*/
@@ -80,10 +77,22 @@ const start = async () =>
     // })
 
     const categories = await saveCategoriesIfNotExist();
-    // console.log(categories.map(c => c.id).join(','));
-    // const changedPriceGoods = await getAllGoodsByCategory(categories[2]);
+    // // console.log(categories.map(c => c.id).join(','));
+    // for(let i = 4; i < categories.length; i++) {
+    //     const changedPriceGoods = await getAllGoodsByCategory(categories[i]);
+    // }
 
-    // console.log(changedPriceGoods);
+    cron.schedule('* * * * * *', () => {
+        console.log('running a task every minute');
+    });
+}
+
+const start = async () =>
+{
+    writeLog('Service was started 123');
+
+    await initializing();
+
 
     bot.on('message', async msg => {
         const text = msg.text;

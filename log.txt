@@ -110,3 +110,699 @@ Service was started 1231 [22:4:48]
 Send commmand /check from 473591842 user 60356810981 [22:4:53]
 Цены остались на месте1 [22:5:1]
 Send commmand ыпывапывап from 473591842 user 60356810981 [22:5:29]
+Service was started 1231 [11:49:49]
+Send commmand /check from 473591842 user 60356810981 [11:50:3]
+Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--256gb-with-apple-m2"> MacBook Air 13 Retina, Midnight, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLY33) </a> =
+             Before <s>46374</s> -
+             After <b>46399.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-"> MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020 </a> =
+             Before <s>35259</s> -
+             After <b>35278.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXW3) </a> =
+             Before <s>45999</s> -
+             After <b>46023.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1--2021-"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (MKGP3) (2021) </a> =
+             Before <s>63422</s> -
+             After <b>63456.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Space Gray) (MK183) </a> =
+             Before <s>76790</s> -
+             After <b>76831.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-512gb-silver-apple-m1-pro-mkgr3-2021"> Apple MacBook Pro 14, 512GB, Silver with Apple M1 Pro (MKGR3) (2021) </a> =
+             Before <s>65299</s> -
+             After <b>65334.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3) </a> =
+             Before <s>108707</s> -
+             After <b>108765.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--mgn93--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (MGN93) 2020 </a> =
+             Before <s>35259</s> -
+             After <b>35278.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--space-gray-with-apple-m1--2022-"> Apple MacBook Pro 13, 512GB, Space Gray with Apple M2 (2022) (MNEJ3) </a> =
+             Before <s>56325</s> -
+             After <b>56355.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Silver) (MK1E3) </a> =
+             Before <s>77541</s> -
+             After <b>77582.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--256gb--mgnd3--2020--apple-m1-"> MacBook Air 13 Retina, Gold, 256GB with Apple M1 (MGND3) 2020 </a> =
+             Before <s>35109</s> -
+             After <b>35128.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--silver-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Silver with Apple M1 Pro (MKGT3) (2021) </a> =
+             Before <s>74537</s> -
+             After <b>74576.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini-"> Apple Mac mini, 256GB with Apple M1 (MGNR3) 2020 </a> =
+             Before <s>25121</s> -
+             After <b>25134.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--mgna3--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 512GB with Apple M1 (MGNA3) 2020 </a> =
+             Before <s>51406</s> -
+             After <b>51433.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021) </a> =
+             Before <s>74537</s> -
+             After <b>74576.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb--2020-"> Apple Mac Mini, 512GB (MXNG2) 2020 </a> =
+             Before <s>28350</s> -
+             After <b>28365.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--green-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Green) (MGPH3) </a> =
+             Before <s>63797</s> -
+             After <b>63831.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020"> Apple Mac mini, 512GB with Apple M1 (MGNT3) 2020 </a> =
+             Before <s>28500</s> -
+             After <b>28516.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--pink-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (MGPC3) </a> =
+             Before <s>60042</s> -
+             After <b>60074.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020 </a> =
+             Before <s>45623</s> -
+             After <b>45648.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/macbook-pro-16--z0y000061-space-gray--i9-2-3ghz-1tb-ssd-32gb-radeon-pro-5500m-with-4gb--"> Macbook Pro 16" Space Gray (i9 2.3GHz/1Tb SSD/32Gb/Radeon Pro 5500M with 4Gb) (Z0Y00003N, Z0Y000061, Z0Y0006MN) </a> =
+             Before <s>150162</s> -
+             After <b>150242.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Silver) (MK1F3) </a> =
+             Before <s>82422</s> -
+             After <b>82466.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--512gb--mgne3--2020--apple-m1-"> MacBook Air 13 Retina, Gold, 512GB with Apple M1 (MGNE3) 2020 </a> =
+             Before <s>50279</s> -
+             After <b>50306.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Space Gray) (MK193) </a> =
+             Before <s>80920</s> -
+             After <b>80963.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--32-gpu--32gb-ram--1tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Silver) (MK1H3) </a> =
+             Before <s>109458</s> -
+             After <b>109517.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--256gb--z12a000fk--2020"> MacBook Air 13 Retina, Gold, 256GB with Apple M1 (Z12A000FK) 2020 </a> =
+             Before <s>47501</s> -
+             After <b>47526.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/apple-pro-display-xdr"> Монитор Apple Pro Display XDR (MWPE2) </a> =
+             Before <s>258306</s> -
+             After <b>258444.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb-"> MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (Z124000FK) 2020 </a> =
+             Before <s>45999</s> -
+             After <b>46023.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/b-u-macbook/b-u-apple-macbook-pro-13--2017--128gb---mpxq2---otlichnoe-sostojanie-"> б/у Apple MacBook Pro 13, 2017 (128GB) (MPXQ2) (Отличное состояние) </a> =
+             Before <s>22117</s> -
+             After <b>22129.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/b-u-macbook/b-u-apple-macbook-pro-13--2017--128gb---mpxq2---srednee-sostojanie-"> б/у Apple MacBook Pro 13, 2017 (128GB) (MPXQ2) (Среднее состояние) </a> =
+             Before <s>21741</s> -
+             After <b>21753.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/b-u-macbook/b-u-apple-macbook-pro-13--2015--128gb---mf839---srednee-sostojanie-"> б/у Apple MacBook Pro 13, 2015 (128GB) (MF839) (Среднее состояние) </a> =
+             Before <s>16860</s> -
+             After <b>16869.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16--512gb--silver-with-apple-m2-2023-"> Apple MacBook Pro 16 with Apple M2 Pro, 12 CPU / 19 GPU, 16GB RAM, 512GB SSD (Silver) (MNWC3) </a> =
+             Before <s>85802</s> -
+             After <b>85847.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--space-gray-with-apple-m2-max--2023-"> Apple MacBook Pro 14, 1TB, 12 CPU / 30 GPU, 32GB RAM, Space Gray with Apple M2 Max 2023 (MPHG3) </a> =
+             Before <s>125229</s> -
+             After <b>125296.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--silver-with-apple-m2-max--2023-"> Apple MacBook Pro 14, 1TB, 12 CPU / 30 GPU, 32GB RAM, Silver with Apple M2 Max 2023 (MPHK3) </a> =
+             Before <s>133115</s> -
+             After <b>133186.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-pro--12-cpu---19-gpu--16gb-ram--1tb-ssd--space-gray---2023-"> Apple MacBook Pro 16 with Apple M2 Pro, 12 CPU / 19 GPU, 16GB RAM, 1TB SSD (Space Gray) (MNW93) </a> =
+             Before <s>97592</s> -
+             After <b>97644.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-pro--12-cpu---19-gpu--16gb-ram--1tb-ssd--silver---2023-"> Apple MacBook Pro 16 with Apple M2 Pro, 12 CPU / 19 GPU, 16GB RAM, 1TB SSD (Silver) (MNWD3) </a> =
+             Before <s>100972</s> -
+             After <b>101026.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--32gb-ram--1tb-ssd--space-gray---2023-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 32GB RAM, 1TB SSD (Space Gray) (MNWA3) </a> =
+             Before <s>140249</s> -
+             After <b>140324.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--32gb-ram--1tb-ssd--silver---2023-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 32GB RAM, 1TB SSD (Silver) (MNWE3) </a> =
+             Before <s>143253</s> -
+             After <b>143330.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb-with-apple-m2-2023"> Apple Mac mini, 512GB with Apple M2 2023 (MMFK3) </a> =
+             Before <s>35259</s> -
+             After <b>35278.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--256gb-with-apple-m2-2023"> Apple Mac mini, 256GB with Apple M2 2023 (MMFJ3) </a> =
+             Before <s>28726</s> -
+             After <b>28741.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--96gb-ram--2tb-ssd--silver---z1770017x-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 96GB RAM, 2TB SSD (Silver) (Z1770017X) </a> =
+             Before <s>178325</s> -
+             After <b>178420.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--96gb-ram--4tb-ssd--silver---z1770019q-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 96GB RAM, 4TB SSD (Silver) (Z1770019Q) </a> =
+             Before <s>262662</s> -
+             After <b>262802.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb-with-apple-m2-pro-2023"> Apple Mac mini, 512GB with Apple M2 Pro 2023 (MNH73) </a> =
+             Before <s>62145</s> -
+             After <b>62178.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--96gb-ram--2tb-ssd--space-gray---z17400180-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 96GB RAM, 2TB SSD (Space Gray) (Z17400180) </a> =
+             Before <s>194847</s> -
+             After <b>194951.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/b-u-macbook/b-u-apple-macbook-pro-13--2017--128gb---mpxr2-"> б/у Apple MacBook Pro 13, 2017 (128GB) (MPXR2) (Идеальное состояние) </a> =
+             Before <s>22117</s> -
+             After <b>22129.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--256gb--2020"> Apple Mac Mini, 256GB (MXNF2) 2020 </a> =
+             Before <s>24370</s> -
+             After <b>24383.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1-pro--z15g0021l--z15g001wa---2021-"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (Z15G0021L, Z15G001WA, Z15G0002B) (2021) </a> =
+             Before <s>90683</s> -
+             After <b>90732.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--2tb--space-gray-with-apple-m1-pro-max--z15g00038---2021-"> Apple MacBook Pro 14, 2TB, Space Gray with Apple M1 Max (Z15G00038) (2021) </a> =
+             Before <s>145131</s> -
+             After <b>145208.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1-max--z15g001wf---2021-"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Max (Z15G001WF) (2021) </a> =
+             Before <s>122976</s> -
+             After <b>123042.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--2tb--space-gray-with-apple-m1-max--z15h0010d---2021-"> Apple MacBook Pro 14, 2TB, Space Gray with Apple M1 Max (Z15H0010D) (2021) </a> =
+             Before <s>144530</s> -
+             After <b>144607.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--96gb-ram--4tb-ssd--space-gray---z1740017z-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 96GB RAM, 4TB SSD (Space Gray) (Z1740017Z) </a> =
+             Before <s>262662</s> -
+             After <b>262802.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--32gb-ram--1tb-ssd--space-gray---z14w00105-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 32GB RAM, 1TB SSD (Space Gray) (Z14W00105) </a> =
+             Before <s>101010</s> -
+             After <b>101063.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--64gb-ram--8tb-ssd--silver---z1770019r-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 64GB RAM, 8TB SSD (Silver) (Z1770019R) </a> =
+             Before <s>295105</s> -
+             After <b>295263.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--96gb-ram--1tb-ssd--space-gray---z17400184-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 96GB RAM, 1TB SSD (Space Gray) (Z17400184) </a> =
+             Before <s>209867</s> -
+             After <b>209979.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--32-gpu--64gb-ram--1tb-ssd--space-gray---z14x000gd-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 64GB RAM, 1TB SSD (Space Gray) (Z14X000GD) </a> =
+             Before <s>167060</s> -
+             After <b>167149.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--64gb-ram--2tb-ssd--silver---z1770019n-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 64GB RAM, 2TB SSD (Silver) (Z1770019N) </a> =
+             Before <s>206112</s> -
+             After <b>206222.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/apple-mac-studio-10-24"> Apple Mac Studio, 10-Core CPU / 24-Core GPU / 16-Core Neural Engine, 32GB RAM, 512GB (MJMV3) </a> =
+             Before <s>84675</s> -
+             After <b>84720.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/apple-mac-studio--10-core-cpu---24-core-gpu---16-core-neural-engine--64gb-ram--1tb--z14j000k3-"> Apple Mac Studio, 10-Core CPU / 24-Core GPU / 16-Core Neural Engine, 64GB RAM, 1TB (Z14J000K3) </a> =
+             Before <s>155795</s> -
+             After <b>155878.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/apple-mac-studio--20-core-cpu---48-core-gpu---32-core-neural-engine--64gb-ram--2tb--z14k0001j-"> Apple Mac Studio, 20-Core CPU / 48-Core GPU / 32-Core Neural Engine, 64GB RAM, 2TB (Z14K0001J) </a> =
+             Before <s>238405</s> -
+             After <b>238532.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/apple-mac-studio--10-core-cpu---24-core-gpu---16-core-neural-engine--32gb-ram--1tb--z14j0001t-"> Apple Mac Studio, 10-Core CPU / 24-Core GPU / 16-Core Neural Engine, 32GB RAM, 1TB (Z14J0001T) </a> =
+             Before <s>131387</s> -
+             After <b>131457.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--silver-with-apple-m1--2022-"> Apple MacBook Pro 13, 512GB, Silver with Apple M2 (2022) (MNEQ3) </a> =
+             Before <s>56287</s> -
+             After <b>56317.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--64gb-ram--2tb-ssd--space-gray---z17400188-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 64GB RAM, 2TB SSD (Space Gray) (Z17400188) </a> =
+             Before <s>204835</s> -
+             After <b>204944.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--512gb-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 512GB, 8 CPU / 10 GPU, 8GB RAM with Apple M2 (MLXX3) </a> =
+             Before <s>56137</s> -
+             After <b>56167.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--12-cpu---30-gpu--64gb-ram--silver-with-apple-m2-max-2023--z17k002jk-"> Apple MacBook Pro 14, 1TB, 12 CPU / 30 GPU, 64GB RAM, Silver with Apple M2 Max 2023 (Z17K002JK) </a> =
+             Before <s>162554</s> -
+             After <b>162641.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--64gb-ram--8tb-ssd--space-gray---z174001bj-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 64GB RAM, 8TB SSD (Space Gray) (Z174001BJ) </a> =
+             Before <s>295105</s> -
+             After <b>295263.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--starlight--256gb-with-apple-m2"> MacBook Air 13 Retina, Starlight, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLY13) </a> =
+             Before <s>46374</s> -
+             After <b>46399.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--12-cpu---30-gpu--64gb-ram--space-gray-with-apple-m2-max-2023--z17g002j7-"> Apple MacBook Pro 14, 1TB, 12 CPU / 30 GPU, 64GB RAM, Space Gray with Apple M2 Max 2023 (Z17G002J7) </a> =
+             Before <s>159174</s> -
+             After <b>159259.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--silver--256gb-with-apple-m2"> MacBook Air 13 Retina, Silver, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXY3) </a> =
+             Before <s>46524</s> -
+             After <b>46549.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb--16gb-ram-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 16GB RAM with Apple M2 (Z15S000CT, Z15S00150, Z155000F9) </a> =
+             Before <s>54260</s> -
+             After <b>54289.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--2tb--12-cpu---30-gpu--64gb-ram--silver-with-apple-m2-max-2023--z17k002m8-"> Apple MacBook Pro 14, 2TB, 12 CPU / 30 GPU, 64GB RAM, Silver with Apple M2 Max 2023 (Z17K002M8) </a> =
+             Before <s>184558</s> -
+             After <b>184657.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--256gb--16gb-with-apple-m2"> MacBook Air 13 Retina, Midnight, 256GB, 8 CPU / 8 GPU, 16GB RAM with Apple M2 (Z160000AU, Z160000DB) </a> =
+             Before <s>55536</s> -
+             After <b>55566.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--2tb--12-cpu---30-gpu--64gb-ram--space-gray-with-apple-m2-max-2023--z17g002hw-"> Apple MacBook Pro 14, 2TB, 12 CPU / 30 GPU, 64GB RAM, Space Gray with Apple M2 Max 2023 (Z17G002HW) </a> =
+             Before <s>185309</s> -
+             After <b>185408.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--starlight--256gb-16gb-with-apple-m2"> MacBook Air 13 Retina, Starlight, 256GB, 8 CPU / 8 GPU, 16GB RAM with Apple M2 (Z15Y000AU, Z15Y00133) </a> =
+             Before <s>54410</s> -
+             After <b>54439.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--silver--256gb--16gb-ram-with-apple-m2"> MacBook Air 13 Retina, Silver, 256GB, 8 CPU / 8 GPU, 16GB RAM with Apple M2 (Z15W000AW, Z15W00134) </a> =
+             Before <s>55536</s> -
+             After <b>55566.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--512gb--8-cpu---10-gpu--16gb-ram-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 512GB, 8 CPU / 10 GPU, 16GB RAM with Apple M2 (Z15T0005G, Z15T000LS) </a> =
+             Before <s>69655</s> -
+             After <b>69692.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--512gb--8-cpu---10-gpu--16gb-ram-with-apple-m2"> MacBook Air 13 Retina, Midnight, 512GB, 8 CPU / 10 GPU, 16GB RAM with Apple M2 (Z1610005E, Z161000LR) </a> =
+             Before <s>71307</s> -
+             After <b>71345.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--starlight--512gb--8-cpu---10-gpu--16gb-ram-with-apple-m2"> MacBook Air 13 Retina, Starlight, 512GB, 8 CPU / 10 GPU, 16GB RAM with Apple M2 (Z15Z0005E) </a> =
+             Before <s>70406</s> -
+             After <b>70444.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--silver--512gb--8-cpu---10-gpu--16gb-ram-with-apple-m2"> MacBook Air 13 Retina, Silver, 512GB, 8 CPU / 10 GPU, 16GB RAM with Apple M2 (Z15X0005F, Z15X000LT) </a> =
+             Before <s>69655</s> -
+             After <b>69692.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16-with-apple-m2-max--12-cpu---38-gpu--96gb-ram--1tb-ssd--silver---z1770018s-"> Apple MacBook Pro 16 with Apple M2 Max, 12 CPU / 38 GPU, 96GB RAM, 1TB SSD (Silver) (Z1770018S) </a> =
+             Before <s>211744</s> -
+             After <b>211857.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--256gb-24-with-apple-m2"> MacBook Air 13 Retina, Midnight, 256GB, 8 CPU / 8 GPU, 24GB RAM with Apple M2 </a> =
+             Before <s>80695</s> -
+             After <b>80738.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--512gb--8-cpu---10-gpu--24gb-ram-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 512GB, 8 CPU / 10 GPU, 24GB RAM with Apple M2 </a> =
+             Before <s>81070</s> -
+             After <b>81114.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--512gb--8-cpu---10-gpu--24gb-ram-with-apple-m2"> MacBook Air 13 Retina, Midnight, 512GB, 8 CPU / 10 GPU, 24GB RAM with Apple M2 </a> =
+             Before <s>81070</s> -
+             After <b>81114.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--silver--512gb--8-cpu---10-gpu--24gb-ram-with-apple-m2"> MacBook Air 13 Retina, Silver, 512GB, 8 CPU / 10 GPU, 24GB RAM with Apple M2 </a> =
+             Before <s>81070</s> -
+             After <b>81114.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--256gb--8-cpu---10-gpu--16gb-ram--space-gray-with-apple-m2--2022---z16r00qq-"> Apple MacBook Pro 13, 256GB, 8 CPU / 10 GPU, 16GB RAM, Space Gray with Apple M2 (2022) (Z16R00QQ) </a> =
+             Before <s>60042</s> -
+             After <b>60074.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--256gb--8-cpu---10-gpu--16gb-ram--silver-with-apple-m2--2022---z16r000qp-"> Apple MacBook Pro 13, 256GB, 8 CPU / 10 GPU, 16GB RAM, Silver with Apple M2 (2022) (Z16R000QP) </a> =
+             Before <s>62671</s> -
+             After <b>62704.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--8-cpu---10-gpu--16gb-ram--space-gray-with-apple-m2--2022--z16s000nr-"> Apple MacBook Pro 13, 512GB, 8 CPU / 10 GPU, 16GB RAM, Space Gray with Apple M2 (2022) (Z16S000NR, Z16S000EV) </a> =
+             Before <s>67402</s> -
+             After <b>67438.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--8-cpu---10-gpu--16gb-ram--silver-with-apple-m2--2022---z16u000nd-"> Apple MacBook Pro 13, 512GB, 8 CPU / 10 GPU, 16GB RAM, Silver with Apple M2 (2022) (Z16U000ND / Z16T0006M / Z16U000EV) </a> =
+             Before <s>67928</s> -
+             After <b>67964.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--1tb--8-cpu---10-gpu--16gb-ram--space-gray-with-apple-m2--2022---z16s000ns-z16s000nt-"> Apple MacBook Pro 13, 1TB, 8 CPU / 10 GPU, 16GB RAM, Space Gray with Apple M2 (2022) (Z16S000NS/Z16S000NT) </a> =
+             Before <s>76189</s> -
+             After <b>76230.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--1tb--8-cpu---10-gpu--16gb-ram--silver-with-apple-m2--2022---z16s000nd-"> Apple MacBook Pro 13, 1TB, 8 CPU / 10 GPU, 16GB RAM, Silver with Apple M2 (2022) (Z16S000ND) </a> =
+             Before <s>73786</s> -
+             After <b>73825.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--standard-glass---mk0q3-"> Монитор Apple Studio Display with Tilt & Height Adjustable Stand (Standard Glass) (MK0Q3) </a> =
+             Before <s>135142</s> -
+             After <b>135214.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/monitor-apple-studio-display-with-vesa-mount-adapter--nano-texture-glass---mmyx3-"> Монитор Apple Studio Display with VESA Mount Adapter (Nano-Texture Glass) (MMYX3) </a> =
+             Before <s>91584</s> -
+             After <b>91633.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/monitor-apple-studio-display-with-tilt-adjustable-stand--nano-texture-glass---mmyw3-"> Монитор Apple Studio Display with Tilt Adjustable Stand (Nano-Texture Glass) (MMYW3) </a> =
+             Before <s>127632</s> -
+             After <b>127700.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--z15g001x8-z15h00105---2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (Z15G001X8/Z15H00105) (2021) </a> =
+             Before <s>128609</s> -
+             After <b>128677.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--silver-with-apple-m1-pro"> Apple MacBook Pro 14, 1TB, 32GB RAM Silver with Apple M1 Pro (2021) </a> =
+             Before <s>123877</s> -
+             After <b>123943.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--10-cpu---16-gpu--32gb-ram--silver-with-apple-m2-pro-2023--z17k002j0-"> Apple MacBook Pro 14, 1TB, 10 CPU / 16 GPU, 32GB RAM, Silver with Apple M2 Pro 2023 (Z17K002J0) </a> =
+             Before <s>119747</s> -
+             After <b>119811.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--10-cpu---16-gpu--32gb-ram--space-gray-with-apple-m2-pro-2023--z17g002ht-"> Apple MacBook Pro 14, 1TB, 10 CPU / 16 GPU, 32GB RAM, Space Gray with Apple M2 Pro 2023 (Z17G002HT) </a> =
+             Before <s>120348</s> -
+             After <b>120412.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--32-gpu--64gb-ram--1tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 64GB RAM, 1TB SSD (Silver) (Z150000HP) </a> =
+             Before <s>225262</s> -
+             After <b>225382.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--32-gpu--64gb-ram--2tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 64GB RAM, 2TB SSD (Silver) (Z150000HQ) </a> =
+             Before <s>168937</s> -
+             After <b>169027.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--32-gpu--32gb-ram--2tb-ssd--space-gray---z14x000h6-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 2TB SSD (Space Gray) (Z14X000H6) </a> =
+             Before <s>147384</s> -
+             After <b>147462.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu---16-gpu--32gb-ram--512gb-ssd--space-gray---z14v0001l--z14v0016e-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 32GB RAM, 512GB SSD (Space Gray) (Z14V0001L, Z14V0016E) </a> =
+             Before <s>95940</s> -
+             After <b>95991.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--silver-with-apple-m1-pro--z15j00029--z15j0021w--z15j001w9---2021-"> Apple MacBook Pro 14, 512GB, Silver with Apple M1 Pro (Z15J00029, Z15J0021W, Z15J001W9) (2021) </a> =
+             Before <s>116367</s> -
+             After <b>116429.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-512gb-space-gray-with-apple-m1-pro-z15g003z6---z15g001x7-2021"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (Z15G003Z6 / Z15G001X7) (2021) </a> =
+             Before <s>121099</s> -
+             After <b>121163.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-1tb-space-gray-with-apple-m1-pro-z15g001x3-2021"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (Z15G001X3) (2021) </a> =
+             Before <s>130261</s> -
+             After <b>130330.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-1tb-space-gray-with-apple-m1-pro-z15g004ep---z15g001wy---z15g0023r-2021"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (Z15G004EP / Z15G001WY / Z15G0023R) (2021) </a> =
+             Before <s>131387</s> -
+             After <b>131457.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--silver--512gb-with-apple-m2"> MacBook Air 13 Retina, Silver, 512GB, 8 CPU / 10 GPU, 8GB RAM with Apple M2 (MLY03) </a> =
+             Before <s>56137</s> -
+             After <b>56167.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/imac-2020/apple-imac-21-with-retina-4k--mhk33--2020"> Apple iMac 21 with Retina 4k (MHK33) 2020 </a> =
+             Before <s>43370</s> -
+             After <b>43393.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--512gb-with-apple-m2"> MacBook Air 13 Retina, Midnight, 512GB, 8 CPU / 10 GPU, 8GB RAM with Apple M2 (MLY43) </a> =
+             Before <s>56287</s> -
+             After <b>56317.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--starlight--512gb-with-apple-m2"> MacBook Air 13 Retina, Starlight, 512GB, 8 CPU / 10 GPU, 8GB RAM with Apple M2 (MLY23) </a> =
+             Before <s>57414</s> -
+             After <b>57445.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/monitor-apple-studio-display-with-tilt-adjustable-stand--standard-glass---mk0u3-"> Монитор Apple Studio Display with Tilt Adjustable Stand (Standard Glass) (MK0U3) </a> =
+             Before <s>116367</s> -
+             After <b>116429.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--nano-texture-glass---mmyv3-"> Монитор Apple Studio Display with Tilt & Height Adjustable Stand (Nano-Texture Glass) (MMYV3) </a> =
+             Before <s>142652</s> -
+             After <b>142728.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/imac-2020/apple-imac-21-with-retina-5k--mhk23--2020"> Apple iMac 21 with Retina 4k (MHK23) 2020 </a> =
+             Before <s>50655</s> -
+             After <b>50682.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/imac-2020/apple-imac-27-with-retina-5k--mxwv2--2020"> Apple iMac 27 with Retina 5K (MXWV2) 2020 </a> =
+             Before <s>82572</s> -
+             After <b>82616.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/imac-2020/apple-imac-27-with-retina-5k--mxwu2--2020"> Apple iMac 27 with Retina 5K (MXWU2) 2020 </a> =
+             Before <s>71307</s> -
+             After <b>71345.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/imac-2020/apple-imac-27-with-retina-5k--mxwt2--2020"> Apple iMac 27 with Retina 5K (MXWT2) 2020 </a> =
+             Before <s>71307</s> -
+             After <b>71345.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-retina-45k-256gb-8-cpu-8-gpu-blue-mgpk3"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Blue) (MGPK3) </a> =
+             Before <s>66276</s> -
+             After <b>66311.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu-8-gpu--blue-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Blue) (MGPL3) </a> =
+             Before <s>74311</s> -
+             After <b>74351.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--green-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Green) (MGPJ3) </a> =
+             Before <s>73035</s> -
+             After <b>73074.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--24-gpu--32gb-ram--1tb-ssd--space-gray---z14w00106--z14v001w3-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 24 GPU, 32GB RAM, 1TB SSD (Space Gray) (Z14W00106, Z14V001W3) </a> =
+             Before <s>159550</s> -
+             After <b>159635.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--blue-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Pink) (MGPN3) </a> =
+             Before <s>74161</s> -
+             After <b>74201.00</b>.
+---Name = <a href="https://jabko.ua/rus/b-u-apple/b-u-mac--apple-/b-u-apple-macbook-pro-13--2018--128gb---mr9q2-"> б/у Apple MacBook Pro 13, 2018 (256GB) (MR9Q2) </a> =
+             Before <s>26623</s> -
+             After <b>26637.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/apple-macbook-pro-16-retina--space-gray-mvvj2-2019"> Apple MacBook Pro 16 Retina, Space Gray 512GB (MVVJ2) 2019 </a> =
+             Before <s>88205</s> -
+             After <b>88252.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---7-gpu--silver-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 7 GPU (Silver) (MGTF3) </a> =
+             Before <s>56137</s> -
+             After <b>56167.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--512gb--z125000dl--2020"> MacBook Air 13 Retina, Space Gray, 512GB with Apple M1 (Z125000DL) 2020 </a> =
+             Before <s>58540</s> -
+             After <b>58572.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---7-gpu--green-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 7 GPU (Green) (MJV83) </a> =
+             Before <s>58540</s> -
+             After <b>58572.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--blue-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Pink) (MGPM3) </a> =
+             Before <s>58165</s> -
+             After <b>58196.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--z128000dl--2020"> MacBook Air 13 Retina, Silver, 512GB with Apple M1 (Z128000DL) 2020 </a> =
+             Before <s>61920</s> -
+             After <b>61953.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--blue---z12x000lu-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Blue) (Z12X000LU / Z12W000NU / Z12X00061) </a> =
+             Before <s>105102</s> -
+             After <b>105158.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--purple---z131000lu-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Purple) (Z131000LU / Z13100061/ Z130000NU) </a> =
+             Before <s>103225</s> -
+             After <b>103280.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--silver---z12q000nu-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Silver) (Z12Q000NU) </a> =
+             Before <s>93837</s> -
+             After <b>93887.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--green---z12u000nu-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Green) (Z12U000NU / Z12V00061) </a> =
+             Before <s>103225</s> -
+             After <b>103280.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--1tb--8-cpu---8-gpu--green---z12u000nv-"> Apple iMac 24 with Retina 4.5K, 1TB, 8 CPU / 8 GPU (Green) (Z12U000NV) </a> =
+             Before <s>112612</s> -
+             After <b>112672.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--1tb--8-cpu---8-gpu--blue---z12x000lx-"> Apple iMac 24 with Retina 4.5K, 1TB, 8 CPU / 8 GPU (Blue) (Z12X000LX / Z12W000NV) </a> =
+             Before <s>114490</s> -
+             After <b>114551.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--1tb--8-cpu---8-gpu--purple---z131000lx-"> Apple iMac 24 with Retina 4.5K, 1TB, 8 CPU / 8 GPU (Purple) (Z131000LX) </a> =
+             Before <s>114490</s> -
+             After <b>114551.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--2tb--8-cpu---8-gpu--purple---z131000ly-"> Apple iMac 24 with Retina 4.5K, 2TB, 8 CPU / 8 GPU (Purple) (Z131000LY) </a> =
+             Before <s>131387</s> -
+             After <b>131457.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/macbook-pro-13-3--2020-"> Apple MacBook Pro 13, 512GB, Silver with Apple M1 (MYDC2), 2020 </a> =
+             Before <s>52382</s> -
+             After <b>52410.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--256gb--space-gray-with-apple-m2--2022-"> Apple MacBook Pro 13, 256GB, Space Gray with Apple M2 (2022) (MNEH3) </a> =
+             Before <s>50505</s> -
+             After <b>50532.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13-256gb-space-gray-with-apple-m1-myd82-2020"> Apple MacBook Pro 13, 256GB, Space Gray with Apple M1 (MYD82) 2020 </a> =
+             Before <s>46900</s> -
+             After <b>46925.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13-512gb-space-gray-with-apple-m1-myd92-2020"> Apple MacBook Pro 13, 512GB, Space Gray with Apple M1 (MYD92) 2020 </a> =
+             Before <s>51406</s> -
+             After <b>51433.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-pro/monitor-apple-pro-display-xdr-s-nano-steklom"> Монитор Apple Pro Display XDR со стеклом Nano-Texture (MWPF2) </a> =
+             Before <s>251547</s> -
+             After <b>251681.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--1tb--8-cpu---8-gpu--orange---z133000lx-"> Apple iMac 24 with Retina 4.5K, 1TB, 8 CPU / 8 GPU (Orange) (Z133000LX) </a> =
+             Before <s>114490</s> -
+             After <b>114551.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/apple-macbook-pro-16-retina--silver-mvvm2-2019"> Apple MacBook Pro 16 Retina, Silver 1TB (MVVM2) 2019 </a> =
+             Before <s>91960</s> -
+             After <b>92009.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--512gb--silver-with-apple-m2-2023"> Apple MacBook Pro 14 with Apple M2 Pro, 512GB, 10 CPU / 16 GPU, 16GB RAM, Silver 2023 (MPHH3) </a> =
+             Before <s>83323</s> -
+             After <b>83368.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--space-gray-with-apple-m2-pro--2023-"> Apple MacBook Pro 14, 1TB, 12 CPU / 19 GPU, 16GB RAM, Space Gray with Apple M2 Pro 2023 (MPHF3) </a> =
+             Before <s>94588</s> -
+             After <b>94639.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14--1tb--silver-with-apple-m2-pro--2023-"> Apple MacBook Pro 14, 1TB, 12 CPU / 19 GPU, 16GB RAM, Silver with Apple M2 Pro 2023 (MPHJ3) </a> =
+             Before <s>97442</s> -
+             After <b>97494.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/macbook-pro-13--256gb--"> Apple MacBook Pro 13, 256GB, Silver with Apple M1 (MYDA2) 2020 </a> =
+             Before <s>44647</s> -
+             After <b>44671.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--silver---z12q000nr-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (Z12Q000NR) </a> =
+             Before <s>99470</s> -
+             After <b>99523.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--orange---z133000lu-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Orange) (Z133000LU) </a> =
+             Before <s>103225</s> -
+             After <b>103280.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--1tb--8-cpu---8-gpu--silver---z12q000nv-"> Apple iMac 24 with Retina 4.5K, 1TB, 8 CPU / 8 GPU (Silver) (Z12Q000NV) </a> =
+             Before <s>114490</s> -
+             After <b>114551.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16-apple-m2/apple-macbook-pro-16--512gb--space-gray-with-apple-m2-2023"> Apple MacBook Pro 16 with Apple M2 Pro, 12 CPU / 19 GPU, 16GB RAM, 512GB SSD (Space Gray) (MNW83) </a> =
+             Before <s>84825</s> -
+             After <b>84871.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---7-gpu--blue-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 7 GPU (Blue) (MJV93) </a> =
+             Before <s>58540</s> -
+             After <b>58572.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---7-gpu--pink-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 7 GPU (Pink) (MJVA3) </a> =
+             Before <s>58540</s> -
+             After <b>58572.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-14-apple-m2/apple-macbook-pro-14-512gb-space-gray-with-apple-m2-2023"> Apple MacBook Pro 14 with Apple M2 Pro, 512GB, 10 CPU / 16 GPU, 16GB RAM, Space Gray 2023 (MPHE3) </a> =
+             Before <s>81446</s> -
+             After <b>81489.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--512gb--mgn73--2020--apple-m1-"> MacBook Air 13 Retina, Space Gray, 512GB with Apple M1 (MGN73) 2020 </a> =
+             Before <s>50279</s> -
+             After <b>50306.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-max--z15h00107---2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Max (Z15H00107) (2021) </a> =
+             Before <s>129360</s> -
+             After <b>129429.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-studio/apple-mac-studio--20-core-cpu---24-core-gpu---16-core-neural-engine"> Apple Mac Studio, 20-Core CPU / 48-Core GPU / 32-Core Neural Engine, 64GB RAM, 1TB (MJMW3) </a> =
+             Before <s>217752</s> -
+             After <b>217868.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb-with-apple-m1--z12n000g2--2020"> Apple Mac mini, 512GB with Apple M1 (Z12N000G2) 2020 </a> =
+             Before <s>60042</s> -
+             After <b>60074.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--256gb-with-apple-m1--z12n000g0--2020"> Apple Mac mini, 256GB with Apple M1 (Z12N000G0) 2020 </a> =
+             Before <s>41267</s> -
+             After <b>41289.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--256gb--silver-with-apple-m2---2022-"> Apple MacBook Pro 13, 256GB, Silver with Apple M2 (2022) (MNEP3) </a> =
+             Before <s>49528</s> -
+             After <b>49555.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--purple---z130000nr-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Purple) (Z130000NR) </a> =
+             Before <s>90458</s> -
+             After <b>90506.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--yellow---z12s000nu-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Yellow) (Z12S000NU) </a> =
+             Before <s>101347</s> -
+             After <b>101401.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--1tb--8-cpu---8-gpu--pink---z12z000lx-"> Apple iMac 24 with Retina 4.5K, 1TB, 8 CPU / 8 GPU (Pink) (Z12Z000LX) </a> =
+             Before <s>108106</s> -
+             After <b>108164.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--2tb--8-cpu---8-gpu--orange---z133000ly-"> Apple iMac 24 with Retina 4.5K, 2TB, 8 CPU / 8 GPU (Orange) (Z133000LY) </a> =
+             Before <s>122000</s> -
+             After <b>122065.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--2tb--8-cpu---8-gpu--blue---z12x000ly-"> Apple iMac 24 with Retina 4.5K, 2TB, 8 CPU / 8 GPU (Blue) (Z12X000LY) </a> =
+             Before <s>123877</s> -
+             After <b>123943.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--2tb--8-cpu---8-gpu--pink---z12y000nw-"> Apple iMac 24 with Retina 4.5K, 2TB, 8 CPU / 8 GPU (Pink) (Z12Y000NW) </a> =
+             Before <s>125755</s> -
+             After <b>125822.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--yellow-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Yellow) (Z12T) </a> =
+             Before <s>82572</s> -
+             After <b>82616.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--512gb-with-apple-m1--z12b00027--2020-"> MacBook Air 13 Retina, Gold, 512GB with Apple M1 (Z12B00027) 2020  </a> =
+             Before <s>64548</s> -
+             After <b>64583.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--orange-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Orange) (Z133) </a> =
+             Before <s>82572</s> -
+             After <b>82616.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--yellow-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Yellow) (Z12S) </a> =
+             Before <s>69430</s> -
+             After <b>69467.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--purple-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Purple) (Z130) </a> =
+             Before <s>70932</s> -
+             After <b>70970.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/apple-macbook-pro-16-retina-mvvl2-silver-2019"> Apple MacBook Pro 16 Retina, Silver 512GB (MVVL2) 2019 </a> =
+             Before <s>88205</s> -
+             After <b>88252.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/apple-macbook-pro-16-retina--space-gray--mvvk2--2019"> Apple MacBook Pro 16 Retina, Space Gray 1TB (MVVK2) 2019 </a> =
+             Before <s>91960</s> -
+             After <b>92009.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--purple-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Purple) (Z131) </a> =
+             Before <s>82572</s> -
+             After <b>82616.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--512gb--8-cpu---8-gpu--silver-"> Apple iMac 24 with Retina 4.5K, 512GB, 8 CPU / 8 GPU (Silver) (MGPD3) </a> =
+             Before <s>75062</s> -
+             After <b>75102.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--orange-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Orange) (Z132) </a> =
+             Before <s>69430</s> -
+             After <b>69467.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13--256gb--space-gray--z11b000e3--2020"> Apple MacBook Pro 13, 256GB, Space Gray with Apple M1 (Z11B000E3) 2020 </a> =
+             Before <s>65675</s> -
+             After <b>65710.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13--512gb--silver--z11d000gj---2020"> Apple MacBook Pro 13, 512GB, Silver with Apple M1 (Z11D000GJ), 2020 </a> =
+             Before <s>70181</s> -
+             After <b>70218.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13--512gb--space-gray--z11c000e4--2020"> Apple MacBook Pro 13, 512GB, Space Gray with Apple M1 (Z11C000E4) 2020 </a> =
+             Before <s>70181</s> -
+             After <b>70218.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--2tb-with-apple-m1--z12n000g8--2020"> Apple Mac mini, 2TB with Apple M1 (Z12N000G8) 2020 </a> =
+             Before <s>78817</s> -
+             After <b>78859.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--1tb-with-apple-m1--z12n000g5-z12p000b3--2020"> Apple Mac mini, 1TB with Apple M1 (Z12N000G5/Z12P000B3) 2020 </a> =
+             Before <s>63797</s> -
+             After <b>63831.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13--1tb--space-gray-with-apple-m1--mj123-z11c000gd-z11b000en--2020"> Apple MacBook Pro 13, 1TB, Space Gray with Apple M1 (MJ123 / Z11C000GD / Z11B000EN) 2020 </a> =
+             Before <s>78817</s> -
+             After <b>78859.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13--1tb--silver-with-apple-m1--z11f000s7-z11d000gk-z11f000em--2020"> Apple MacBook Pro 13, 1TB, Silver with Apple M1 (Z11F000S7/Z11D000GK/Z11F000EM) 2020 </a> =
+             Before <s>78817</s> -
+             After <b>78859.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--24-gpu--32gb-ram--4tb-ssd--space-gray---z14w0010e-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 24 GPU, 32GB RAM, 4TB SSD (Space Gray) (Z14W0010E) </a> =
+             Before <s>229017</s> -
+             After <b>229139.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--2tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 2TB, Space Gray with Apple M1 Pro (Z15H000ZM) (2021) </a> =
+             Before <s>93837</s> -
+             After <b>93887.00</b>.
+---Name = <a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-with-apple-m1/apple-macbook-pro-13--256gb--silver--z11d000g0--2020"> Apple MacBook Pro 13, 256GB, Silver with Apple M1 (Z11D000G0) 2020 </a> =
+             Before <s>65675</s> -
+             After <b>65710.00</b>.
+1 [11:50:23]
+Service was started 1231 [11:51:59]
+Send commmand /check from 473591842 user 60356810981 [11:52:5]
+Цены остались на месте1 [11:52:48]
+Service was started 1231 [12:0:23]
+Send commmand /check from 473591842 user 60356810981 [12:0:30]
+Цены остались на месте1 [12:0:58]
+Service was started 1231 [12:3:13]
+Send commmand /check from 473591842 user 60356810981 [12:3:23]
+Ошибка. Попробуйте снова позже!TypeError: Cannot read properties of undefined (reading 'document')1 [12:3:27]
+Service was started 1231 [12:5:24]
+Service was started 1231 [12:5:30]
+Send commmand /check from 473591842 user 60356810981 [12:5:40]
+Service was started 1231 [12:6:12]
+Send commmand /check from 473591842 user 60356810981 [12:6:16]
+Service was started 1231 [12:11:2]
+Service was started 1231 [12:11:28]
+Send commmand /check from 473591842 user 60356810981 [12:11:34]
+Service was started 1231 [12:12:19]
+Send commmand /check from 473591842 user 60356810981 [12:12:22]
+Service was started 1231 [12:14:50]
+Send commmand /check from 473591842 user 60356810981 [12:14:55]
+Service was started 1231 [12:17:50]
+Send commmand /check from 473591842 user 60356810981 [12:17:53]
+Service was started 1231 [12:18:55]
+Send commmand /check from 473591842 user 60356810981 [12:18:58]
+Service was started 1231 [12:19:46]
+Send commmand /check from 473591842 user 60356810981 [12:19:59]
+Service was started 1231 [12:21:20]
+Send commmand /check from 473591842 user 60356810981 [12:21:23]
+Service was started 1231 [12:22:49]
+Service was started 1231 [12:23:2]
+Send commmand /check from 473591842 user 60356810981 [12:23:6]
+Service was started 1231 [12:24:7]
+Send commmand /check from 473591842 user 60356810981 [12:24:12]
+Ошибка. Попробуйте снова позже!TypeError: Cannot read properties of undefined (reading 'length')1 [12:24:17]
+Service was started 1231 [12:27:18]
+Send commmand /check from 473591842 user 60356810981 [12:27:26]
+Service was started 1231 [12:27:50]
+Send commmand /check from 473591842 user 60356810981 [12:27:56]
+Service was started 1231 [12:28:51]
+Service was started 1231 [12:29:31]
+Service was started 1231 [12:29:42]
+Send commmand /check from 473591842 user 60356810981 [12:29:45]
+Service was started 1231 [12:30:44]
+Send commmand /check from 473591842 user 60356810981 [12:30:47]
+Service was started 1231 [12:52:29]
+Send commmand /check from 473591842 user 60356810981 [12:52:34]
+Service was started 1231 [12:54:3]
+Send commmand /check from 473591842 user 60356810981 [12:54:7]
+Name = <a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-"> MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020 </a> =
+             Before <s>40278</s> -
+             After <b>42278.00</b>.
+1 [12:55:44]
+Service was started 1231 [13:3:59]
+Send commmand /check from 473591842 user 60356810981 [13:4:10]
+<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-"> MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020</a>
+            Before <s>42278</s> -
+            After <b>45278.00</b>.1 [13:4:58]
+Service was started 1231 [13:5:39]
+Send commmand /check from 473591842 user 60356810981 [13:5:45]
+Цены остались на месте1 [13:6:3]
+Service was started 1231 [13:7:17]
+Send commmand /check from 473591842 user 60356810981 [13:7:22]
+<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXW3)</a>
+            Before <s>46023</s> -
+            After <b>47023.00</b>.---<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1--2021-"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (MKGP3) (2021)</a>
+            Before <s>63456</s> -
+            After <b>66456.00</b>.---<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3)</a>
+            Before <s>108765</s> -
+            After <b>109765.00</b>.1 [13:7:58]
+Service was started 1231 [13:12:9]
+Send commmand /check from 473591842 user 60356810981 [13:12:13]
+Цены остались на месте1 [13:12:19]
+Send commmand /check from 473591842 user 60356810981 [13:14:13]
+<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3)</a>
+Before <s>109765</s> -
+After <b>102765.00</b>.<br/>---<br/><a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--mgn93--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (MGN93) 2020</a>
+Before <s>35278</s> -
+After <b>37278.00</b>.<br/>---<br/><a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Silver) (MK1E3)</a>
+Before <s>77582</s> -
+After <b>73582.00</b>.1 [13:14:19]
+Service was started 1231 [13:15:52]
+Send commmand /check from 473591842 user 60356810981 [13:15:55]
+<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini-"> Apple Mac mini, 256GB with Apple M1 (MGNR3) 2020</a>
+Before <s>25134</s> -
+After <b>29134.00</b>.<br>---<br><a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--mgna3--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 512GB with Apple M1 (MGNA3) 2020</a>
+Before <s>51433</s> -
+After <b>50433.00</b>.<br>---<br><a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
+Before <s>74576</s> -
+After <b>76576.00</b>.1 [13:16:1]
+Service was started 1231 [13:18:8]
+Send commmand /check from 473591842 user 60356810981 [13:18:11]
+<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
+Before <s>76576</s> -
+After <b>73576.00</b>.1 [13:18:17]
+Service was started 1231 [13:18:43]
+Send commmand /check from 473591842 user 60356810981 [13:18:47]
+<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
+Before <s>73576</s> -
+After <b>72576.00</b>.<p>---</p><a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb--2020-"> Apple Mac Mini, 512GB (MXNG2) 2020</a>
+Before <s>28365</s> -
+After <b>29365.00</b>.1 [13:18:53]
+Service was started 1231 [13:20:40]
+Send commmand /check from 473591842 user 60356810981 [13:20:42]
+<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--pink-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (MGPC3)</a>
+Before <s>60074</s> -
+After <b>63074.00</b>.<br/>---<br/><a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020</a>
+Before <s>45648</s> -
+After <b>44648.00</b>.1 [13:20:48]
+Service was started 1231 [13:21:5]
+Send commmand /check from 473591842 user 60356810981 [13:21:23]
+<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020</a>
+Before <s>44648</s> -
+After <b>43648.00</b>.
+---
+<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/macbook-pro-16--z0y000061-space-gray--i9-2-3ghz-1tb-ssd-32gb-radeon-pro-5500m-with-4gb--"> Macbook Pro 16" Space Gray (i9 2.3GHz/1Tb SSD/32Gb/Radeon Pro 5500M with 4Gb) (Z0Y00003N, Z0Y000061, Z0Y0006MN)</a>
+Before <s>150242</s> -
+After <b>152242.00</b>.
+---
+<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Silver) (MK1F3)</a>
+Before <s>82466</s> -
+After <b>86466.00</b>.1 [13:21:29]
+Service was started 1231 [13:24:45]
+Send commmand /check from 473591842 user 60356810981 [13:30:57]
+Цены остались на месте1 [13:31:17]
+Service was started 1231 [13:33:11]
+Service was started 1231 [13:43:55]
+Service was started 1231 [13:44:49]
+Service was started 1231 [13:45:54]
+Service was started 1231 [13:47:11]
+Service was started 1231 [13:47:43]
+Service was started 1231 [13:48:32]
+Service was started 1231 [13:49:56]
+Service was started 1231 [13:50:10]
+Service was started 1231 [14:4:29]
+Service was started 1231 [14:4:58]
+Service was started 1231 [14:5:40]
+Service was started 1231 [14:5:52]
+Service was started 1231 [14:5:59]
+Service was started 1231 [14:7:13]
+Send commmand /check from 473591842 user 60356810981 [14:7:26]
