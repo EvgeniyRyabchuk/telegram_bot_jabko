@@ -10,9 +10,8 @@
 - Запись всех продуктов по всем категориям в бд 
 
 
-//TODO: create user if not exist when chat is first created 
-//TODO: make history model 
 //TODO: make compare system (in digit and percent with text mark)
 //TODO: make automatically scan system 
 //TODO: make migration file 
 //TODO: subcategories 
+//TODO: make a specify goods track for user 

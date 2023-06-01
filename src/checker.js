@@ -3,7 +3,7 @@ const url = 'https://jabko.ua/zaporizhzhia/rus/';
 
 const axios = require('axios')
 const jsdom = require("jsdom");
-const {Category, Good} = require("../database/models");
+const {Category, Good, History} = require("../database/models");
 var path = require('path');
 const fs = require("fs");
 const { JSDOM } = jsdom;
@@ -99,7 +99,8 @@ const fromTextToMoney = (text) => {
 }
 
 
-const getGoods = async (totalPage, currentPage, category, currencyBuy) => {
+const getGoods = async (totalPage, currentPage, category, currencyBuy, changedGoods) => {
+
     const document = (await getJsDomByUrl(`${category.url}?page=${currentPage}`, true)).window.document;
 
     const containers = document.querySelectorAll(".prod-item");
@@ -126,12 +127,21 @@ const getGoods = async (totalPage, currentPage, category, currencyBuy) => {
 
         if(good.price_uah != price_uah && !created) {
             changedGoods.push({ good, oldPriceUah: good.price_uah, newPriceUah: price_uah});
-            Good.update({ price_uah, price_usd }, {
+            await Good.update(
+                { price_uah, price_usd }, {
                 where: { id: good.id }
             });
-            console.log("changed");
+            await History.create({
+                new_price_uah: price_uah,
+                old_price_uah: good.price_uah,
+                new_price_uah: price_usd,
+                old_price_uah: good.price_usd,
+                good_id: good
+            })
         }
     }
+
+    return changedGoods;
 }
 
 // get all the goods by category
@@ -139,7 +149,7 @@ const getGoods = async (totalPage, currentPage, category, currencyBuy) => {
 const getAllGoodsByCategory = async (category) => {
     console.log(' ================================= start scan =================================');
 
-    const changedGoods = [];
+
 
     let document = (await getJsDomByUrl(`${category.url}`)).window.document;
     const paginateBtn = document.querySelector(".pagination > .pag-item:nth-last-child(2)");
@@ -155,9 +165,15 @@ const getAllGoodsByCategory = async (category) => {
 
     const response = await axios.get('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5');
     const currencyBuy = response.data[1].buy;
-
+    let changedGoods = [];
     if(totalPage == 0) {
-        await getGoods(totalPage, currentPage, category, currencyBuy);
+        changedGoods = await getGoods(
+            totalPage,
+            currentPage,
+            category,
+            currencyBuy,
+            changedGoods
+        );
     } else {
         while (currentPage <= totalPage) {
             // try {
@@ -168,7 +184,13 @@ const getAllGoodsByCategory = async (category) => {
             // } catch (ex) {
             //     console.error(ex)
             // }
-            await getGoods(totalPage, currentPage, category, currencyBuy);
+            changedGoods = await getGoods(
+                totalPage,
+                currentPage,
+                category,
+                currencyBuy,
+                changedGoods
+            );
             currentPage++;
             console.log(`current page = ${currentPage}`);
         }
