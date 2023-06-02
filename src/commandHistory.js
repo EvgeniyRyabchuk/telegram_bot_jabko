@@ -15,6 +15,7 @@ class CommandHistory {
             CommandHistory.history.push(command);
     }
     static deleteCommandHistoryIfExist = (user) => {
+       if(CommandHistory.history.length == 0) return;
         const index = CommandHistory.history.findIndex(c => c.user.id == user.id);
         if(index != undefined || index != null) {
             CommandHistory.history.splice(index, 1);

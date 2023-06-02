@@ -1,343 +1,72 @@
 
-Service was started 1231 [16:28:40]
-Service was started 1231 [16:29:2]
-Send commmand /check from 473591842 user 60356810981 [16:29:5]
-Цены остались на месте1 [16:29:23]
-Service was started 1231 [16:32:57]
-Send commmand /check from 473591842 user 60356810981 [16:33:0]
-Service was started 1231 [16:46:43]
-Send commmand /check from 473591842 user 60356810981 [16:46:59]
-Ошибка. Попробуйте снова позже!SequelizeTimeoutError: SQLITE_BUSY: database is locked1 [16:47:4]
-Service was started 1231 [16:48:0]
-Send commmand /check from 473591842 user 60356810981 [16:48:3]
-Ошибка. Попробуйте снова позже!SequelizeTimeoutError: SQLITE_BUSY: database is locked1 [16:48:5]
-Service was started 1231 [16:49:3]
-Send commmand /check from 473591842 user 60356810981 [16:49:8]
-Ошибка. Попробуйте снова позже!SequelizeTimeoutError: SQLITE_BUSY: database is locked1 [16:49:12]
-Service was started 1231 [16:50:41]
-Service was started 1231 [16:51:2]
-Send commmand /check from 473591842 user 60356810981 [16:51:20]
-Service was started 1231 [16:56:15]
-Send commmand /check from 473591842 user 60356810981 [16:56:21]
-Service was started 1231 [16:59:32]
-Send commmand /check from 473591842 user 60356810981 [16:59:41]
-<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--256gb-with-apple-m2"> MacBook Air 13 Retina, Midnight, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLY33)</a>
-Before <s>46399</s> -
-After <b>46285.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-"> MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXW3)</a>
-Before <s>46023</s> -
-After <b>45750.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1--2021-"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (MKGP3) (2021)</a>
-Before <s>63456</s> -
-After <b>63338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Space Gray) (MK183)</a>
-Before <s>76831</s> -
-After <b>76688.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-512gb-silver-apple-m1-pro-mkgr3-2021"> Apple MacBook Pro 14, 512GB, Silver with Apple M1 Pro (MKGR3) (2021)</a>
-Before <s>65334</s> -
-After <b>65963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3)</a>
-Before <s>108765</s> -
-After <b>110588.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--mgn93--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (MGN93) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--space-gray-with-apple-m1--2022-"> Apple MacBook Pro 13, 512GB, Space Gray with Apple M2 (2022) (MNEJ3)</a>
-Before <s>56355</s> -
-After <b>56250.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Silver) (MK1E3)</a>
-Before <s>77582</s> -
-After <b>77213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--256gb--mgnd3--2020--apple-m1-"> MacBook Air 13 Retina, Gold, 256GB with Apple M1 (MGND3) 2020</a>
-Before <s>35128</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--silver-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Silver with Apple M1 Pro (MKGT3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini-"> Apple Mac mini, 256GB with Apple M1 (MGNR3) 2020</a>
-Before <s>25134</s> -
-After <b>25088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--mgna3--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 512GB with Apple M1 (MGNA3) 2020</a>
-Before <s>51433</s> -
-After <b>51338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb--2020-"> Apple Mac Mini, 512GB (MXNG2) 2020</a>
-Before <s>28365</s> -
-After <b>28313.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--green-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Green) (MGPH3)</a>
-Before <s>63831</s> -
-After <b>63713.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020"> Apple Mac mini, 512GB with Apple M1 (MGNT3) 2020</a>
-Before <s>28516</s> -
-After <b>28463.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--pink-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (MGPC3)</a>
-Before <s>60074</s> -
-After <b>59963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020</a>
-Before <s>45648</s> -
-After <b>45563.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/macbook-pro-16--z0y000061-space-gray--i9-2-3ghz-1tb-ssd-32gb-radeon-pro-5500m-with-4gb--"> Macbook Pro 16" Space Gray (i9 2.3GHz/1Tb SSD/32Gb/Radeon Pro 5500M with 4Gb) (Z0Y00003N, Z0Y000061, Z0Y0006MN)</a>
-Before <s>150242</s> -
-After <b>149963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Silver) (MK1F3)</a>
-Before <s>82466</s> -
-After <b>82088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--512gb--mgne3--2020--apple-m1-"> MacBook Air 13 Retina, Gold, 512GB with Apple M1 (MGNE3) 2020</a>
-Before <s>50306</s> -
-After <b>50213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Space Gray) (MK193)</a>
-Before <s>80963</s> -
-After <b>80470.00</b>.1 [17:0:12]
-Service was started 1231 [17:2:4]
-Send commmand /check from 473591842 user 60356810981 [17:2:13]
-Ошибка. Попробуйте снова позже!SequelizeTimeoutError: SQLITE_BUSY: database is locked1 [17:2:18]
-Error TypeError: answer.map is not a function1 [17:2:18]
-Service was started 1231 [17:2:51]
-Send commmand /check from 473591842 user 60356810981 [17:3:3]
-<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--256gb-with-apple-m2"> MacBook Air 13 Retina, Midnight, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLY33)</a>
-Before <s>46399</s> -
-After <b>46285.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-"> MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb-with-apple-m2"> MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXW3)</a>
-Before <s>46023</s> -
-After <b>45750.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1--2021-"> Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (MKGP3) (2021)</a>
-Before <s>63456</s> -
-After <b>63338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Space Gray) (MK183)</a>
-Before <s>76831</s> -
-After <b>76688.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-512gb-silver-apple-m1-pro-mkgr3-2021"> Apple MacBook Pro 14, 512GB, Silver with Apple M1 Pro (MKGR3) (2021)</a>
-Before <s>65334</s> -
-After <b>65963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3)</a>
-Before <s>108765</s> -
-After <b>110588.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--mgn93--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (MGN93) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--space-gray-with-apple-m1--2022-"> Apple MacBook Pro 13, 512GB, Space Gray with Apple M2 (2022) (MNEJ3)</a>
-Before <s>56355</s> -
-After <b>56250.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Silver) (MK1E3)</a>
-Before <s>77582</s> -
-After <b>77213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--256gb--mgnd3--2020--apple-m1-"> MacBook Air 13 Retina, Gold, 256GB with Apple M1 (MGND3) 2020</a>
-Before <s>35128</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--silver-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Silver with Apple M1 Pro (MKGT3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini-"> Apple Mac mini, 256GB with Apple M1 (MGNR3) 2020</a>
-Before <s>25134</s> -
-After <b>25088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--mgna3--2020--apple-m1-"> MacBook Air 13 Retina, Silver, 512GB with Apple M1 (MGNA3) 2020</a>
-Before <s>51433</s> -
-After <b>51338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-"> Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb--2020-"> Apple Mac Mini, 512GB (MXNG2) 2020</a>
-Before <s>28365</s> -
-After <b>28313.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--green-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Green) (MGPH3)</a>
-Before <s>63831</s> -
-After <b>63713.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020"> Apple Mac mini, 512GB with Apple M1 (MGNT3) 2020</a>
-Before <s>28516</s> -
-After <b>28463.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--pink-"> Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (MGPC3)</a>
-Before <s>60074</s> -
-After <b>59963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020"> MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020</a>
-Before <s>45648</s> -
-After <b>45563.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/macbook-pro-16--z0y000061-space-gray--i9-2-3ghz-1tb-ssd-32gb-radeon-pro-5500m-with-4gb--"> Macbook Pro 16" Space Gray (i9 2.3GHz/1Tb SSD/32Gb/Radeon Pro 5500M with 4Gb) (Z0Y00003N, Z0Y000061, Z0Y0006MN)</a>
-Before <s>150242</s> -
-After <b>149963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--silver-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Silver) (MK1F3)</a>
-Before <s>82466</s> -
-After <b>82088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--512gb--mgne3--2020--apple-m1-"> MacBook Air 13 Retina, Gold, 512GB with Apple M1 (MGNE3) 2020</a>
-Before <s>50306</s> -
-After <b>50213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-"> Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Space Gray) (MK193)</a>
-Before <s>80963</s> -
-After <b>80470.00</b>.1 [17:3:19]
-Send commmand /check from 473591842 user 60356810981 [17:6:12]
-Цены остались на месте1 [17:6:30]
-Error TypeError: answer.map is not a function1 [17:6:30]
-Service was started 1231 [17:8:1]
-Service was started 1231 [17:8:8]
-Send commmand /check from 473591842 user 60356810981 [17:8:12]
-Цены остались на месте1 [17:8:29]
-Error TypeError: answer.forEach is not a function1 [17:8:29]
-Service was started 1231 [17:8:39]
-Service was started 1231 [17:8:46]
-Send commmand /check from 473591842 user 60356810981 [17:8:48]
-Service was started 1231 [17:10:4]
-Send commmand /check from 473591842 user 60356810981 [17:10:11]
-Service was started 1231 [17:11:16]
-Service was started 1231 [17:11:19]
-Send commmand /check from 473591842 user 60356810981 [17:11:21]
-Цены остались на месте1 [17:11:41]
-Service was started 1231 [17:14:50]
-Send commmand /check from 473591842 user 60356810981 [17:14:54]
-Цены остались на месте1 [17:15:22]
-Service was started 1231 [17:18:10]
-Service was started 1231 [17:18:20]
-Service was started 1231 [17:19:3]
-Send commmand /check from 473591842 user 60356810981 [17:19:8]
-Цены остались на месте1 [17:19:15]
-Service was started 1231 [17:21:30]
-Send commmand /check from 473591842 user 60356810981 [17:21:32]
-Цены остались на месте1 [17:21:50]
-Send commmand /check from 473591842 user 60356810981 [17:30:55]
-Service was started 1231 [17:31:10]
-Send commmand /check from 473591842 user 60356810981 [17:31:16]
-Цены остались на месте1 [17:31:29]
-Service was started 1231 [17:33:50]
-Send commmand /check from 473591842 user 60356810981 [17:33:53]
-Ошибка. Попробуйте снова позже!TypeError: changedPriceGoods.map is not a function1 [17:34:3]
-Service was started 1231 [17:35:7]
-Send commmand /check from 473591842 user 60356810981 [17:35:9]
-Ошибка. Попробуйте снова позже!TypeError: changedPriceGoods.map is not a function1 [17:35:20]
-Service was started 1231 [17:36:45]
-Service was started 1231 [17:37:4]
-Send commmand /check from 473591842 user 60356810981 [17:37:10]
-Service was started 1231 [17:53:25]
-Send commmand /check from 473591842 user 60356810981 [17:53:28]
-<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--midnight--256gb-with-apple-m2">MacBook Air 13 Retina, Midnight, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLY33)</a>
-Before <s>46399</s> -
-After <b>46285.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-">MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb-with-apple-m2">MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXW3)</a>
-Before <s>46023</s> -
-After <b>45750.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1--2021-">Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (MKGP3) (2021)</a>
-Before <s>63456</s> -
-After <b>63338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--space-gray-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Space Gray) (MK183)</a>
-Before <s>76831</s> -
-After <b>76688.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-512gb-silver-apple-m1-pro-mkgr3-2021">Apple MacBook Pro 14, 512GB, Silver with Apple M1 Pro (MKGR3) (2021)</a>
-Before <s>65334</s> -
-After <b>65963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-">Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3)</a>
-Before <s>108765</s> -
-After <b>110588.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--mgn93--2020--apple-m1-">MacBook Air 13 Retina, Silver, 256GB with Apple M1 (MGN93) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--space-gray-with-apple-m1--2022-">Apple MacBook Pro 13, 512GB, Space Gray with Apple M2 (2022) (MNEJ3)</a>
-Before <s>56355</s> -
-After <b>56250.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--silver-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Silver) (MK1E3)</a>
-Before <s>77582</s> -
-After <b>77213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--256gb--mgnd3--2020--apple-m1-">MacBook Air 13 Retina, Gold, 256GB with Apple M1 (MGND3) 2020</a>
-Before <s>35128</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--silver-with-apple-m1-pro--2021-">Apple MacBook Pro 14, 1TB, Silver with Apple M1 Pro (MKGT3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini-">Apple Mac mini, 256GB with Apple M1 (MGNR3) 2020</a>
-Before <s>25134</s> -
-After <b>25088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--mgna3--2020--apple-m1-">MacBook Air 13 Retina, Silver, 512GB with Apple M1 (MGNA3) 2020</a>
-Before <s>51433</s> -
-After <b>51338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-">Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb--2020-">Apple Mac Mini, 512GB (MXNG2) 2020</a>
-Before <s>28365</s> -
-After <b>28313.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--green-">Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Green) (MGPH3)</a>
-Before <s>63831</s> -
-After <b>63713.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020">Apple Mac mini, 512GB with Apple M1 (MGNT3) 2020</a>
-Before <s>28516</s> -
-After <b>28463.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--pink-">Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (MGPC3)</a>
-Before <s>60074</s> -
-After <b>59963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020">MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020</a>
-Before <s>45648</s> -
-After <b>45563.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/macbook-pro-16--z0y000061-space-gray--i9-2-3ghz-1tb-ssd-32gb-radeon-pro-5500m-with-4gb--">Macbook Pro 16" Space Gray (i9 2.3GHz/1Tb SSD/32Gb/Radeon Pro 5500M with 4Gb) (Z0Y00003N, Z0Y000061, Z0Y0006MN)</a>
-Before <s>150242</s> -
-After <b>149963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--silver-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Silver) (MK1F3)</a>
-Before <s>82466</s> -
-After <b>82088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--512gb--mgne3--2020--apple-m1-">MacBook Air 13 Retina, Gold, 512GB with Apple M1 (MGNE3) 2020</a>
-Before <s>50306</s> -
-After <b>50213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Space Gray) (MK193)</a>
-Before <s>80963</s> -
-After <b>80470.00</b>.1 [17:54:3]
-Service was started 1231 [17:58:2]
-Send commmand /start from 473591842 user 60356810981 [17:58:4]
-Service was started 1231 [17:58:33]
-Service was started 1231 [17:58:45]
-Service was started 1231 [17:59:6]
-Service was started 1231 [17:59:28]
-Service was started 1231 [17:59:42]
-Service was started 1231 [18:0:26]
-Service was started 1231 [18:2:8]
-Service was started 1231 [18:4:2]
-Service was started 1231 [18:5:45]
-Service was started 1231 [18:6:21]
-Service was started 1231 [18:7:37]
-Service was started 1231 [18:8:9]
-Service was started 1231 [18:15:14]
-Service was started 1231 [18:17:6]
-Service was started 1231 [18:18:2]
-Service was started 1231 [18:19:59]
-Service was started 1231 [18:33:5]
-Ошибка. Попробуйте снова позже!ReferenceError: History is not defined1 [18:33:18]
-Service was started 1231 [18:34:41]
-<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-">MacBook Air 13 Retina, Space Gray, 256GB with Apple M1 (MGN63) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina--space-gray--256gb-with-apple-m2">MacBook Air 13 Retina, Space Gray, 256GB, 8 CPU / 8 GPU, 8GB RAM with Apple M2 (MLXW3)</a>
-Before <s>46023</s> -
-After <b>45750.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--512gb--space-gray-with-apple-m1--2021-">Apple MacBook Pro 14, 512GB, Space Gray with Apple M1 Pro (MKGP3) (2021)</a>
-Before <s>63456</s> -
-After <b>63338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--space-gray-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Space Gray) (MK183)</a>
-Before <s>76831</s> -
-After <b>76688.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14-512gb-silver-apple-m1-pro-mkgr3-2021">Apple MacBook Pro 14, 512GB, Silver with Apple M1 Pro (MKGR3) (2021)</a>
-Before <s>65334</s> -
-After <b>65963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-">Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Space Gray) (MK1A3)</a>
-Before <s>108765</s> -
-After <b>110588.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--mgn93--2020--apple-m1-">MacBook Air 13 Retina, Silver, 256GB with Apple M1 (MGN93) 2020</a>
-Before <s>35278</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-13-apple-m2/apple-macbook-pro-13--512gb--space-gray-with-apple-m1--2022-">Apple MacBook Pro 13, 512GB, Space Gray with Apple M2 (2022) (MNEJ3)</a>
-Before <s>56355</s> -
-After <b>56250.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--512gb-ssd--silver-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU / 16 GPU, 16GB RAM, 512GB SSD (Silver) (MK1E3)</a>
-Before <s>77582</s> -
-After <b>77213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--256gb--mgnd3--2020--apple-m1-">MacBook Air 13 Retina, Gold, 256GB with Apple M1 (MGND3) 2020</a>
-Before <s>35128</s> -
-After <b>35063.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--silver-with-apple-m1-pro--2021-">Apple MacBook Pro 14, 1TB, Silver with Apple M1 Pro (MKGT3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini-">Apple Mac mini, 256GB with Apple M1 (MGNR3) 2020</a>
-Before <s>25134</s> -
-After <b>25088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--512gb--mgna3--2020--apple-m1-">MacBook Air 13 Retina, Silver, 512GB with Apple M1 (MGNA3) 2020</a>
-Before <s>51433</s> -
-After <b>51338.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-14-inch/apple-macbook-pro-14--1tb--space-gray-with-apple-m1-pro--2021-">Apple MacBook Pro 14, 1TB, Space Gray with Apple M1 Pro (MKGQ3) (2021)</a>
-Before <s>74576</s> -
-After <b>74438.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/mac-mini--2020/apple-mac-mini--512gb--2020-">Apple Mac Mini, 512GB (MXNG2) 2020</a>
-Before <s>28365</s> -
-After <b>28313.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--green-">Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Green) (MGPH3)</a>
-Before <s>63831</s> -
-After <b>63713.00</b>.,<a href="https://jabko.ua/rus/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020">Apple Mac mini, 512GB with Apple M1 (MGNT3) 2020</a>
-Before <s>28516</s> -
-After <b>28463.00</b>.,<a href="https://jabko.ua/rus/mac/imac/apple-imac--2021-/apple-imac-24-with-retina-4-5k--256gb--8-cpu---8-gpu--pink-">Apple iMac 24 with Retina 4.5K, 256GB, 8 CPU / 8 GPU (Silver) (MGPC3)</a>
-Before <s>60074</s> -
-After <b>59963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--silver--256gb--z127000fk--2020">MacBook Air 13 Retina, Silver, 256GB with Apple M1 (Z127000FK) 2020</a>
-Before <s>45648</s> -
-After <b>45563.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/macbook-pro-16--2019-/macbook-pro-16--z0y000061-space-gray--i9-2-3ghz-1tb-ssd-32gb-radeon-pro-5500m-with-4gb--">Macbook Pro 16" Space Gray (i9 2.3GHz/1Tb SSD/32Gb/Radeon Pro 5500M with 4Gb) (Z0Y00003N, Z0Y000061, Z0Y0006MN)</a>
-Before <s>150242</s> -
-After <b>149963.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--silver-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Silver) (MK1F3)</a>
-Before <s>82466</s> -
-After <b>82088.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--gold--512gb--mgne3--2020--apple-m1-">MacBook Air 13 Retina, Gold, 512GB with Apple M1 (MGNE3) 2020</a>
-Before <s>50306</s> -
-After <b>50213.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-pro--10-cpu--16-gpu--16gb-ram--1tb-ssd--space-gray-">Apple MacBook Pro 16 with Apple M1 Pro, 10 CPU, 16 GPU, 16GB RAM, 1TB SSD (Space Gray) (MK193)</a>
-Before <s>80963</s> -
-After <b>80470.00</b>.,<a href="https://jabko.ua/rus/mac/macbook-pro/apple-macbook-pro-16--2021-/apple-macbook-pro-16-with-apple-m1-max--10-cpu--32-gpu--32gb-ram--1tb-ssd--silver-">Apple MacBook Pro 16 with Apple M1 Max, 10 CPU, 32 GPU, 32GB RAM, 1TB SSD (Silver) (MK1H3)</a>
-Before <s>109517</s> -
-After <b>109313.00</b>.1 [18:35:6]
-Service was started 1231 [19:5:0]
-Service was started 1231 [19:5:38]
-Service was started 1231 [19:6:1]
-undefined1 [19:6:6]
-Service was started 1231 [19:6:39]
-undefined1 [19:6:42]
-Service was started 1231 [19:9:23]
-undefined1 [19:9:27]
-Service was started 1231 [19:10:36]
-Service was started 1231 [19:10:39]
-undefined1 [19:10:41]
-Service was started 1231 [19:11:51]
-undefined1 [19:11:55]
-undefined1 [19:11:58]
-Service was started 1231 [19:14:36]
-undefined1 [19:14:42]
-Service was started 1231 [19:17:6]
-undefined1 [19:17:8]
-Service was started 1231 [19:17:36]
-undefined1 [19:17:37]
-Service was started 1231 [19:18:50]
-undefined1 [19:18:52]
-Service was started 1231 [19:24:34]
-undefined1 [19:24:40]
-Service was started 1231 [19:28:52]
-undefined1 [19:28:56]
-Service was started 1231 [19:30:22]
-Service was started 1231 [19:30:41]
-undefined1 [19:30:47]
-Service was started 1231 [19:31:11]
-undefined1 [19:31:13]
-Service was started 1231 [19:31:46]
-undefined1 [19:31:50]
-Service was started 1231 [19:33:5]
-undefined1 [19:33:8]
-Service was started 1231 [19:40:30]
-undefined1 [19:40:36]
-Error TypeError: Cannot read properties of undefined (reading 'find')1 [19:40:36]
-Service was started 1231 [19:41:7]
-undefined1 [19:41:11]
-Error TypeError: Cannot read properties of undefined (reading 'find')1 [19:41:11]
-Service was started 1231 [19:41:41]
-undefined1 [19:41:45]
-Error TypeError: Cannot read properties of undefined (reading 'find')1 [19:41:45]
-Service was started 1231 [19:41:54]
-Service was started 1231 [19:42:52]
-undefined1 [19:43:1]
-Error ReferenceError: history is not defined1 [19:43:4]
-undefined1 [19:43:53]
-Error ReferenceError: history is not defined1 [19:43:53]
-undefined1 [19:44:24]
-Error ReferenceError: history is not defined1 [19:44:24]
-Service was started 1231 [19:44:32]
-undefined1 [19:44:34]
+Service was started 1231 [12:24:25]
+Service was started 1231 [12:24:48]
+Service was started 1231 [12:24:56]
+Service was started 1231 [12:25:5]
+Service was started 1231 [12:25:15]
+Service was started 1231 [12:29:2]
+Service was started 1231 [12:29:21]
+Service was started 1231 [12:29:38]
+Service was started 1231 [12:33:40]
+Цены остались на месте1 [12:34:38]
+Service was started 1231 [12:35:0]
+Service was started 1231 [12:35:20]
+Service was started 1231 [12:37:13]
+Service was started 1231 [12:37:23]
+Service was started 1231 [12:37:30]
+Service was started 1231 [12:37:44]
+Service was started 1231 [12:38:11]
+Service was started 1231 [12:38:21]
+Service was started 1231 [12:38:47]
+Service was started 1231 [12:39:8]
+Service was started 1231 [12:40:1]
+Service was started 1231 [12:40:56]
+Service was started 1231 [12:41:12]
+Service was started 1231 [12:54:11]
+Service was started 1231 [12:54:31]
+Service was started 1231 [12:55:43]
+Service was started 1231 [12:55:55]
+Service was started 1231 [12:56:7]
+Service was started 1231 [12:56:14]
+Service was started 1231 [12:56:22]
+Service was started 1231 [12:57:39]
+Service was started 1231 [12:58:1]
+Service was started 1231 [12:58:11]
+Service was started 1231 [12:58:26]
+Service was started 1231 [12:59:52]
+Service was started 1231 [13:1:14]
+Service was started 1231 [13:1:53]
+Service was started 1231 [13:2:24]
+Service was started 1231 [13:2:52]
+Service was started 1231 [13:3:55]
+Service was started 1231 [13:4:10]
+Service was started 1231 [13:5:13]
+Error SequelizeForeignKeyConstraintError: SQLITE_CONSTRAINT: FOREIGN KEY constraint failed1 [13:5:18]
+Service was started 1231 [13:5:38]
+Service was started 1231 [13:5:45]
+Service was started 1231 [13:6:17]
+Service was started 1231 [13:6:48]
+Service was started 1231 [13:7:2]
+Service was started 1231 [13:12:37]
+Service was started 1231 [13:13:37]
+Service was started 1231 [13:14:1]
+Service was started 1231 [13:14:17]
+Service was started 1231 [13:14:41]
+Service was started 1231 [13:15:35]
+Service was started 1231 [13:17:38]
+Service was started 1231 [13:19:42]
+Service was started 1231 [13:20:34]
+Service was started 1231 [13:21:30]
+Service was started 1231 [13:21:45]
+Service was started 1231 [13:22:9]
+Service was started 1231 [13:25:5]
+Service was started 1231 [13:28:41]
+Service was started 1231 [13:29:39]
+Service was started 1231 [13:30:48]
+Service was started 1231 [13:31:43]
+Service was started 1231 [13:32:56]
+Service was started 1231 [13:33:57]
+Service was started 1231 [13:36:18]
+Service was started 1231 [13:36:56]
+Service was started 1231 [13:38:3]
+Service was started 1231 [13:41:13]

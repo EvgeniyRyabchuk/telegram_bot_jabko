@@ -1,6 +1,6 @@
 
 const url = 'https://jabko.ua/zaporizhzhia/rus/';
-
+const { GoodsPageType } = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
 const {Category, Good, History} = require("../database/models");
@@ -43,8 +43,6 @@ const saveHtmlDoc = (html) => {
         console.log('Saved!');
     })
 }
-
-
 
 const getJsDomByUrl = async (url, isSave = false) => {
     const response = await axios.get(`${url}`, {
@@ -94,53 +92,67 @@ const saveCategoriesIfNotExist = async () => {
 const fromTextToMoney = (text) => {
    return parseFloat(text
         .replace('грн', '')
-        .replace(' ', ''))
+        .replace(' ', '')
+        .replace('$', ''))
     .toFixed(2);
 }
 
+const parseGood = async (container,
+                         PageType = GoodsPageType.LIST,
+                         currencyBuy = null,
+                         categoryId = null,
+                         GoodUrl = null
+
+) => {
+    const name = container.querySelector(PageType.NameSelector).textContent.replace(/\s\s+/g, ' ');
+    const url = container.querySelector(PageType.UrlSelector).getAttribute('href');
+    const price_uah = fromTextToMoney(container.querySelector(PageType.PriceUah).textContent);
+
+    let price_usd = 0;
+    if(PageType == GoodsPageType.LIST)
+        price_usd = (price_uah / currencyBuy).toFixed(2);
+    else if(PageType == GoodsPageType.SHOW)
+        price_usd = fromTextToMoney(container.querySelector(PageType.PriceUsd).textContent);
+
+    const [good, created] = await Good.findOrCreate({
+        where: { name },
+        defaults: {
+            name, url: PageType == GoodsPageType.LIST ? url : GoodUrl, price_uah, price_usd, dollar: currencyBuy, categoryId: categoryId
+        }
+    });
+    return {good, newPrice: {uah: price_uah, usd: price_usd}};
+}
+
+
+const commitPriceChange = async (good, newPrice, changedGoods) => {
+    if(good.price_uah != newPrice.uah) {
+        changedGoods.push({ good, oldPriceUah: good.price_uah, newPriceUah: newPrice.uah});
+
+        await Good.update({ price_uah: newPrice.uah, price_usd: newPrice.uah }, {
+            where: { id: good.id }
+        });
+
+        await History.create({
+            new_price_uah: newPrice.uah,
+            old_price_uah: good.price_uah,
+            new_price_usd: newPrice.usd,
+            old_price_usd: good.price_usd,
+            good_id: good
+        })
+    }
+}
 
 const getGoods = async (totalPage, currentPage, category, currencyBuy, changedGoods) => {
-
-    const document = (await getJsDomByUrl(`${category.url}?page=${currentPage}`, true)).window.document;
-
+    const document = (await getJsDomByUrl(`${category.url}?page=${currentPage}`, false)).window.document;
     const containers = document.querySelectorAll(".prod-item");
 
     // console.log(containers.length, `totalPage = ${totalPage}`, `limit = ${limit}`);
     console.log(containers.length, `totalPage = ${totalPage}`);
 
     for (let container of containers) {
-        // clean up the name
-        const name = container.querySelector('.slide-title > span')
-            .textContent.replace(/\s\s+/g, ' ');
-        const url = container.querySelector('.product_link').getAttribute('href');
-        const price_uah = fromTextToMoney(container.querySelector('.price-cur > .uah > span').textContent);
-        const price_usd = (price_uah / currencyBuy).toFixed(2);
-
-        console.log(name, url, price_uah, price_usd);
-
-        let [good, created] = await Good.findOrCreate({
-            where: { name },
-            defaults: {
-                name, url, price_uah, price_usd, dollar: currencyBuy, categoryId: category.id
-            }
-        });
-
-        if(good.price_uah != price_uah && !created) {
-            changedGoods.push({ good, oldPriceUah: good.price_uah, newPriceUah: price_uah});
-            await Good.update(
-                { price_uah, price_usd }, {
-                where: { id: good.id }
-            });
-            await History.create({
-                new_price_uah: price_uah,
-                old_price_uah: good.price_uah,
-                new_price_uah: price_usd,
-                old_price_uah: good.price_usd,
-                good_id: good
-            })
-        }
+        const {good, newPrice} = await parseGood(container, GoodsPageType.LIST, currencyBuy, category.id);
+        commitPriceChange(changedGoods)
     }
-
     return changedGoods;
 }
 
@@ -148,8 +160,6 @@ const getGoods = async (totalPage, currentPage, category, currencyBuy, changedGo
 //TODO: make only one requst for get pagination btn
 const getAllGoodsByCategory = async (category) => {
     console.log(' ================================= start scan =================================');
-
-
 
     let document = (await getJsDomByUrl(`${category.url}`)).window.document;
     const paginateBtn = document.querySelector(".pagination > .pag-item:nth-last-child(2)");
@@ -165,7 +175,9 @@ const getAllGoodsByCategory = async (category) => {
 
     const response = await axios.get('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5');
     const currencyBuy = response.data[1].buy;
+
     let changedGoods = [];
+
     if(totalPage == 0) {
         changedGoods = await getGoods(
             totalPage,
@@ -205,5 +217,8 @@ const getAllGoodsByCategory = async (category) => {
 
 module.exports = {
     saveCategoriesIfNotExist,
-    getAllGoodsByCategory
+    getAllGoodsByCategory,
+    parseGood,
+    getJsDomByUrl,
+    commitPriceChange
 }
