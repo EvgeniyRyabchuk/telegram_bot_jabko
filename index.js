@@ -230,7 +230,7 @@ const start = async () =>
                             }
                             case CommandName.DELETE_TRACK_ITEM:
                                 const goodId = parseInt(text);
-                                await TrackedGood.destroy({ where: { goodId }})
+                                await TrackedGood.destroy({ where: { goodId, userId: user.id }})
                                 return bot.sendMessage(chatId, StatusMessages.SUCCESS_DELETED)
                         }
                     }

@@ -71,7 +71,6 @@ const getJsDomByUrl = async (url, isSave = false) => {
     if(isSave)
         saveHtmlDoc(html);
 
-
     return new JSDOM(`${html}`);
 }
 
@@ -166,7 +165,7 @@ const getGoods = async (totalPage, currentPage, category, currencyBuy, changedGo
 
     for (let container of containers) {
         const {good, newPrice} = await parseGood(container, GoodsPageType.LIST, currencyBuy, category.id);
-        commitPriceChange(changedGoods)
+        await commitPriceChange(good, newPrice, changedGoods)
     }
     return changedGoods;
 }
