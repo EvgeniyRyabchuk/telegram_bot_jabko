@@ -37,6 +37,8 @@ bot.setMyCommands([
     { command: CommandName.INFO, description: 'sdfgsfdg' },
     { command: CommandName.CHECK, description: 'check' },
     { command: CommandName.TRACK, description: 'track' },
+    { command: CommandName.TRACK_LIST, description: 'track list' },
+    { command: CommandName.DELETE_TRACK_ITEM, description: 'delete track' },
     // { command: '/buttons', description: 'check' },
 ]);
 
@@ -44,8 +46,10 @@ var options = {
     reply_markup: JSON.stringify({
       inline_keyboard: [
         [{ text: CommandName.INFO, callback_data: '1' }],
-        [{ text: CommandName.CHECK, callback_data: '2' }]
-        [{ text: CommandName.TRACK, callback_data: '3' }]
+        [{ text: CommandName.CHECK, callback_data: '2' }],
+        [{ text: CommandName.TRACK, callback_data: '3' }],
+        [{ text: CommandName.TRACK_LIST, callback_data: '4' }],
+        [{ text: CommandName.DELETE_TRACK_ITEM, callback_data: '5' }]
       ]
     })
   };
@@ -75,8 +79,7 @@ const checkTrackedGoodPrice = async (bot) => {
         for (let trackedGood of trackedGoods) {
             const document = (await getJsDomByUrl(`${trackedGood.good.url}`, false)).window.document;
             const {good, newPrice} = await parseGood(document, GoodsPageType.SHOW);
-            await commitPriceChange(good, newPrice, changes);
-            console.log(changes);
+            await commitPriceChange(good, newPrice, changes, trackedGood.min_percent);
         }
         if(changes.length > 0) {
             const msg = GoodChangesMsgFormat(changes);
@@ -110,11 +113,11 @@ const initializing = async () => {
     // }
 
 
-    cron.schedule('* * * * *', async () => {
-        console.log(123);
-        await checkTrackedGoodPrice(bot);
-    });
-
+    // cron.schedule('* * * * *', async () => {
+    //     console.log(123);
+    //     await checkTrackedGoodPrice(bot);
+    // });
+    await checkTrackedGoodPrice(bot);
 }
 
 const start = async () =>
@@ -130,8 +133,6 @@ const start = async () =>
         // const member = await bot.getChatMember(chatId, user.id);
 
         try {
-            // writeLog(`Send commmand ${text} from ${msg.chat.id} user ${user.id}`);
-
             switch (text) {
                 case CommandName.START: {
                     CommadHistory.deleteCommandHistoryIfExist(user);
@@ -162,9 +163,23 @@ const start = async () =>
                 }
                 case CommandName.TRACK: {
                     CommadHistory.deleteCommandHistoryIfExist(user);
-                    CommadHistory.addOrUpdateCommandHistory(user, '/track');
+                    CommadHistory.addOrUpdateCommandHistory(user, CommandName.TRACK);
                     return bot.sendMessage(chatId, "Скинь мне ссылку на товар магазина Ябко");
                 }
+                case CommandName.TRACK_LIST:
+                    const trackList = (await User.findOne({ where: {id: user.id}, include:
+                        { model: TrackedGood, include: Good }
+                    })).tracked_goods;
+                    const answer = trackList.length > 0 ? trackList.map(
+                        tl => `[${tl.good.id}]${tl.good.name} | Отслеживаете от ${tl.min_percent}%\n`
+                    ).join('') : 'Список пуст. /track - комманда для добавления в этот список';
+                    writeLog('show track list');
+                    return bot.sendMessage(chatId, answer);
+
+                case CommandName.DELETE_TRACK_ITEM:
+                    CommadHistory.deleteCommandHistoryIfExist(user);
+                    CommadHistory.addOrUpdateCommandHistory(user, CommandName.DELETE_TRACK_ITEM);
+                    return bot.sendMessage(chatId, "Введите id товара для удаления");
 
                 default: {
                     const existCommand = CommadHistory.history.find(c => c.user.id == user.id);
@@ -174,27 +189,35 @@ const start = async () =>
                                 //TODO: validate link
                                 if(existCommand.step == 0)  {
                                     CommadHistory.addOrUpdateCommandHistory(user, CommandName.TRACK, 1, {url: text });
-                                    return bot.sendMessage(chatId, "От скольки процентов отслеживать");
+                                    return bot.sendMessage(chatId, "От скольки процентов скидки отслеживать товар?");
                                 }
                                 if(existCommand.step == 1) {
                                     existCommand.state.percent = text;
                                     const {url, percent } = existCommand.state;
-                                    //TODO: find product by url
 
-                                    let good = await Good.findOne({ where: { url: url} });
+                                    const minPercent = parseInt(percent);
+                                    if(Number.isNaN(minPercent))
+                                        return bot.sendMessage(chatId, StatusMessages.UNCORRECT_DATA);
+                                    if(minPercent < 0 || minPercent > 100)
+                                        return bot.sendMessage(chatId, StatusMessages.UNCORRECT_DATA);
+
+                                    let good = await Good.findOne({ where: { url } });
                                     if(!good) {
                                         const document = (await getJsDomByUrl(`${url}`, false)).window.document;
                                         good = (await parseGood(document, GoodsPageType.SHOW, null, null, url)).good;
-
-                                        // await Good.update({ url: document.URL  }, {
-                                        //     where: { id: good.id }
-                                        // });
                                     }
 
                                     const [track, created] = await TrackedGood.findOrCreate({
                                         where: {goodId: good.id, userId: user.id },
-                                        defaults: { goodId: good.id, userId: user.id}
+                                        defaults: { goodId: good.id, userId: user.id, min_percent: minPercent}
                                     });
+
+                                    // обновить запись если такова уже существует в списке
+                                    if(track.min_percent != minPercent) {
+                                        await TrackedGood.update({ min_percent: minPercent }, {
+                                            where:  {goodId: good.id, userId: user.id }}
+                                        );
+                                    }
 
                                     //TODO: check if user exist
                                     // await TrackedGood.create({ goodId: good.id, userId: user.id});
@@ -205,22 +228,19 @@ const start = async () =>
                                 }
                                 break;
                             }
+                            case CommandName.DELETE_TRACK_ITEM:
+                                const goodId = parseInt(text);
+                                await TrackedGood.destroy({ where: { goodId }})
+                                return bot.sendMessage(chatId, StatusMessages.SUCCESS_DELETED)
                         }
                     }
-
-                    let answer = 'command not found';
-                    //установка кнопок
-                    return bot.sendMessage(chatId, answer, options);
-                    // return bot.sendMessage(chatId, answer);
+                    return bot.sendMessage(chatId, StatusMessages.COMMAND_NOT_FOUND, options);
                 }
             }
         } catch (e) {
             writeLog(`Error ${e}`);
+            return bot.sendMessage(chatId, StatusMessages.ERROR);
         }
-
-
-        // return bot.sendMessage(chatId, 'Я тебя не понимаю');
-
     })
 
     bot.on('callback_query', (query) =>{

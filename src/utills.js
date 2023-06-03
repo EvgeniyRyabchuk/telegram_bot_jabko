@@ -3,14 +3,21 @@ const moment = require("moment");
 const currenDateTimeStamp = `===== ${moment().format('DD-MM-YYYY h:mm:ss a')} =====`
 
 const StatusMessages = {
-   NO_CHANGES: `Нет изменений. \n${currenDateTimeStamp}`
+   NO_CHANGES: `Нет изменений. \n${currenDateTimeStamp}`,
+    SUCCESS_DELETED: 'Удаление прошло успешно',
+    SUCCESS_CREATED: 'Запись создана',
+    ERROR: 'Произошла ошибка. Попробуйте позже',
+    COMMAND_NOT_FOUND: 'Комманда не найдена',
+    UNCORRECT_DATA: 'Не верно введеные дынные. Попробуйте сново!'
 }
 
 const CommandName = {
     TRACK: '/track',
     START: '/start',
     CHECK: '/check',
-    INFO: '/info'
+    INFO: '/info',
+    TRACK_LIST: '/track_list',
+    DELETE_TRACK_ITEM: '/delete_track_item'
 }
 
 
@@ -29,16 +36,27 @@ const GoodsPageType = {
 }
 
 const max_msg_c_at_time = 24;
+const getColoredSpan = (color, val, char = null, type = 'abs') => {
+    if(type == 'abs')
+        return `<b style=\"color: ${color}\">${char > 0 ? '+' : ''}${val} грн</b>`;
+    if(type == 'percent')
+        return `<b style=\"color: ${color}\">${char}${val}%</b>`;
+}
 
-const GoodChangesMsgFormat = (goods) => {
+
+const goodChangesMsgFormat = (goods) => {
     //TODO: persent
     const res = goods.length > max_msg_c_at_time
         ? goods.slice(0, max_msg_c_at_time) : goods;
 
     return res.map(changedGood => {
+        const {percentDiff: valPercent, absoluteDiff: valAbs, char } = changedGood.diff;
+        const diffColor = changedGood.diff.percentDiff > 0 ? 'green' : 'red';
+
         return `<a href="${changedGood.good.url}">${changedGood.good.name}</a>
-Before <s>${changedGood.oldPriceUah}</s> -
-After <b>${changedGood.newPriceUah}</b>.`}).join('\n');
+Before <s>${changedGood.oldPriceUah}</s> - 
+After <b>${changedGood.newPriceUah} (${getColoredSpan(diffColor,valPercent,char,'percent')} / ${getColoredSpan(diffColor, valAbs, char, 'abs')}).</b>`
+    }).join('\n')
 }
 
 module.exports = {
@@ -46,8 +64,20 @@ module.exports = {
     currenDateTimeStamp,
     CommandName,
     GoodsPageType,
-    GoodChangesMsgFormat
+    GoodChangesMsgFormat: goodChangesMsgFormat
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

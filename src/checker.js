@@ -4,7 +4,7 @@ const { GoodsPageType } = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
 const {Category, Good, History} = require("../database/models");
-var path = require('path');
+const path = require('path');
 const fs = require("fs");
 const { JSDOM } = jsdom;
 
@@ -102,7 +102,6 @@ const parseGood = async (container,
                          currencyBuy = null,
                          categoryId = null,
                          GoodUrl = null
-
 ) => {
     const name = container.querySelector(PageType.NameSelector).textContent.replace(/\s\s+/g, ' ');
     const url = container.querySelector(PageType.UrlSelector).getAttribute('href');
@@ -124,21 +123,37 @@ const parseGood = async (container,
 }
 
 
-const commitPriceChange = async (good, newPrice, changedGoods) => {
+const commitPriceChange = async (good, newPrice, changedGoods, minPercent = 0) => {
     if(good.price_uah != newPrice.uah) {
-        changedGoods.push({ good, oldPriceUah: good.price_uah, newPriceUah: newPrice.uah});
+        const absoluteDiff = Math.round(newPrice.uah - good.price_uah);
+        const char = absoluteDiff > 0 ? "+" : '-';
+        const percentDiff = Math.round((newPrice.uah * 100) / good.price_uah);
 
-        await Good.update({ price_uah: newPrice.uah, price_usd: newPrice.uah }, {
-            where: { id: good.id }
-        });
 
-        await History.create({
-            new_price_uah: newPrice.uah,
-            old_price_uah: good.price_uah,
-            new_price_usd: newPrice.usd,
-            old_price_usd: good.price_usd,
-            good_id: good
-        })
+        if(percentDiff >= minPercent || minPercent === 0) {
+            changedGoods.push({
+                good,
+                oldPriceUah: good.price_uah,
+                newPriceUah: newPrice.uah,
+                diff: { absoluteDiff, percentDiff, char }
+            });
+
+            await Good.update({ price_uah: newPrice.uah, price_usd: newPrice.uah }, {
+                where: { id: good.id }
+            });
+
+            await History.create({
+                new_price_uah: newPrice.uah,
+                old_price_uah: good.price_uah,
+                new_price_usd: newPrice.usd,
+                old_price_usd: good.price_usd,
+                good_id: good
+            })
+        }
+        return {
+            absoluteDiff,
+            percentDiff
+        }
     }
 }
 
