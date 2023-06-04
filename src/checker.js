@@ -3,7 +3,7 @@ const url = 'https://jabko.ua/zaporizhzhia/rus/';
 const { GoodsPageType, fromTextToMoney} = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
-const {Category, Good, History} = require("../database/models");
+const {Category, Good, History, User, TrackedGood} = require("../database/models");
 const path = require('path');
 const fs = require("fs");
 const { JSDOM } = jsdom;
@@ -87,8 +87,6 @@ const getJsDomByUrl = async (url, isSave = false) => {
     return new JSDOM(`${html}`);
 }
 
-
-
 const parseGood = async (container,
                          PageType = GoodsPageType.LIST,
                          currencyBuy = null,
@@ -113,7 +111,6 @@ const parseGood = async (container,
     });
     return {good, newPrice: {uah: price_uah, usd: price_usd}};
 }
-
 
 const commitPriceChange = async (good, newPrice, changedGoods, minPercent = 0) => {
     if(good.price_uah != newPrice.uah) {
@@ -222,10 +219,30 @@ const getAllGoodsByCategory = async (category) => {
     return changedGoods;
 }
 
+const checkTrackedGoodPrice = async (bot) => {
+    const users = await User.findAll({
+        include: [{ model: TrackedGood, include: Good}]
+    })
+    for (let user of users) {
+        const trackedGoods = user.tracked_goods;
+        const changes = [];
+        for (let trackedGood of trackedGoods) {
+            const document = (await getJsDomByUrl(`${trackedGood.good.url}`, false)).window.document;
+            const {good, newPrice} = await parseGood(document, GoodsPageType.SHOW, null, trackedGood.good.categoryId, trackedGood.good.url);
+            await commitPriceChange(good, newPrice, changes, trackedGood.min_percent);
+        }
+        if(changes.length > 0) {
+            const msg = goodChangesMsgFormat(changes);
+            bot.sendMessage(user.chatId, msg, {parse_mode: 'HTML'});
+        }
+    }
+}
+
 module.exports = {
     saveCategoriesIfNotExist,
     getAllGoodsByCategory,
     parseGood,
     getJsDomByUrl,
-    commitPriceChange
+    commitPriceChange,
+    checkTrackedGoodPrice
 }
