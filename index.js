@@ -29,6 +29,7 @@ const moment = require("moment/moment");
 const {where} = require("sequelize");
 const url = require("url");
 const {FORMAT} = require("sqlite3");
+const axios = require("axios");
 
 
 
@@ -78,7 +79,7 @@ const checkTrackedGoodPrice = async (bot) => {
         const changes = [];
         for (let trackedGood of trackedGoods) {
             const document = (await getJsDomByUrl(`${trackedGood.good.url}`, false)).window.document;
-            const {good, newPrice} = await parseGood(document, GoodsPageType.SHOW);
+            const {good, newPrice} = await parseGood(document, GoodsPageType.SHOW, null, trackedGood.good.categoryId, trackedGood.good.url);
             await commitPriceChange(good, newPrice, changes, trackedGood.min_percent);
         }
         if(changes.length > 0) {
@@ -201,10 +202,14 @@ const start = async () =>
                                     if(minPercent < 0 || minPercent > 100)
                                         return bot.sendMessage(chatId, StatusMessages.UNCORRECT_DATA);
 
+                                    const response = await axios.get('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5');
+                                    const currencyBuy = response.data[1].buy;
+
                                     let good = await Good.findOne({ where: { url } });
                                     if(!good) {
                                         const document = (await getJsDomByUrl(`${url}`, false)).window.document;
-                                        good = (await parseGood(document, GoodsPageType.SHOW, null, null, url)).good;
+                                        //TODO: define category
+                                        good = (await parseGood(document, GoodsPageType.SHOW, currencyBuy, null, url)).good;
                                     }
 
                                     const [track, created] = await TrackedGood.findOrCreate({
@@ -231,7 +236,7 @@ const start = async () =>
                             case CommandName.DELETE_TRACK_ITEM:
                                 const goodId = parseInt(text);
                                 await TrackedGood.destroy({ where: { goodId, userId: user.id }})
-                                return bot.sendMessage(chatId, StatusMessages.SUCCESS_DELETED)
+                                return bot.sendMessage(chatId, StatusMessages.SUCCESS_DELETED);
                         }
                     }
                     return bot.sendMessage(chatId, StatusMessages.COMMAND_NOT_FOUND, options);

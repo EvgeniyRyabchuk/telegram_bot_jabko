@@ -10,8 +10,21 @@
 - Запись всех продуктов по всем категориям в бд 
 
 
-//TODO: make compare system (in digit and percent with text mark)
-//TODO: make automatically scan system 
-//TODO: make migration file 
-//TODO: subcategories 
-//TODO: make a specify goods track for user 
+//TODO: make migration file
+//TODO: scan by category using buttons 
+//TODO: description  
+//TODO: auto commit to github for always free hosting
+//TODO: pause for avoid spawn block 
+
+
+Heroku 
+
+heroku login
+heroku create -a jabkobot
+heroku git:remote -a jabkobot
+git push heroku master
+
+heroku ps
+heroku ps:scale bot=1
+heroku ps:scale web=0
+heroku ps:scale worker=1

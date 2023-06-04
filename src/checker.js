@@ -1,6 +1,6 @@
 
 const url = 'https://jabko.ua/zaporizhzhia/rus/';
-const { GoodsPageType } = require('./utills');
+const { GoodsPageType, fromTextToMoney} = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
 const {Category, Good, History} = require("../database/models");
@@ -35,6 +35,20 @@ const getAllCategories = async () => {
         console.error(err);
     }
 }
+const saveCategoriesIfNotExist = async () => {
+    const categoryList = await getAllCategories();
+    console.log(categoryList);
+    for (let category of categoryList) {
+        const existCategory = await Category.findOne({
+            where: { name: category.name }
+        });
+        //TODO: fix problem when new category just renamed
+        if(!existCategory)
+            await Category.create({name: category.name, url: category.url});
+    }
+    return Category.findAll();
+}
+
 
 const saveHtmlDoc = (html) => {
     var fs = require('fs');
@@ -43,7 +57,6 @@ const saveHtmlDoc = (html) => {
         console.log('Saved!');
     })
 }
-
 const getJsDomByUrl = async (url, isSave = false) => {
     const response = await axios.get(`${url}`, {
         responseType: 'document',
@@ -74,27 +87,7 @@ const getJsDomByUrl = async (url, isSave = false) => {
     return new JSDOM(`${html}`);
 }
 
-const saveCategoriesIfNotExist = async () => {
-    const categoryList = await getAllCategories();
-    console.log(categoryList);
-    for (let category of categoryList) {
-        const existCategory = await Category.findOne({
-            where: { name: category.name }
-        });
-        //TODO: fix problem when new category just renamed
-        if(!existCategory)
-            await Category.create({name: category.name, url: category.url});
-    }
-    return Category.findAll();
-}
 
-const fromTextToMoney = (text) => {
-   return parseFloat(text
-        .replace('грн', '')
-        .replace(' ', '')
-        .replace('$', ''))
-    .toFixed(2);
-}
 
 const parseGood = async (container,
                          PageType = GoodsPageType.LIST,
@@ -125,11 +118,11 @@ const parseGood = async (container,
 const commitPriceChange = async (good, newPrice, changedGoods, minPercent = 0) => {
     if(good.price_uah != newPrice.uah) {
         const absoluteDiff = Math.round(newPrice.uah - good.price_uah);
+        const percentDiff = Math.round((absoluteDiff * 100) / good.price_uah);
         const char = absoluteDiff > 0 ? "+" : '-';
-        const percentDiff = Math.round((newPrice.uah * 100) / good.price_uah);
 
 
-        if(percentDiff >= minPercent || minPercent === 0) {
+        if(Math.abs(percentDiff) >= minPercent || minPercent === 0) {
             changedGoods.push({
                 good,
                 oldPriceUah: good.price_uah,
@@ -146,7 +139,7 @@ const commitPriceChange = async (good, newPrice, changedGoods, minPercent = 0) =
                 old_price_uah: good.price_uah,
                 new_price_usd: newPrice.usd,
                 old_price_usd: good.price_usd,
-                good_id: good
+                goodId: good.id
             })
         }
         return {

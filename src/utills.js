@@ -38,14 +38,13 @@ const GoodsPageType = {
 const max_msg_c_at_time = 24;
 const getColoredSpan = (color, val, char = null, type = 'abs') => {
     if(type == 'abs')
-        return `<b style=\"color: ${color}\">${char > 0 ? '+' : ''}${val} грн</b>`;
+        return `<b style=\"color: ${color}\">${char == '+' ? '+' : ''}${val} грн</b>`;
     if(type == 'percent')
         return `<b style=\"color: ${color}\">${char}${val}%</b>`;
 }
 
 
 const goodChangesMsgFormat = (goods) => {
-    //TODO: persent
     const res = goods.length > max_msg_c_at_time
         ? goods.slice(0, max_msg_c_at_time) : goods;
 
@@ -59,12 +58,22 @@ After <b>${changedGood.newPriceUah} (${getColoredSpan(diffColor,valPercent,char,
     }).join('\n')
 }
 
+const fromTextToMoney = (text) => {
+    return parseFloat(text
+        .replace('грн', '')
+        .replace(' ', '')
+        .replace('$', ''))
+        .toFixed(2);
+}
+
+
 module.exports = {
     StatusMessages,
     currenDateTimeStamp,
     CommandName,
     GoodsPageType,
-    GoodChangesMsgFormat: goodChangesMsgFormat
+    GoodChangesMsgFormat: goodChangesMsgFormat,
+    fromTextToMoney
 }
 
 
