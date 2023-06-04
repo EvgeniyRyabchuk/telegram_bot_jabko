@@ -23,7 +23,8 @@ const StatusMessages = {
     COMMAND_NOT_FOUND: 'Комманда не найдена',
     NOT_CORRECT_DATA: 'Не верно введеные дынные. Попробуйте сново!',
     INFO_TIP: `Вы можете посмотреть список комманд с помощью команды ${CommandName.INFO}`,
-    SUCCESS_ADD_TO_TRACK_LIST: 'Ок. Буду следить.'
+    SUCCESS_ADD_TO_TRACK_LIST: 'Ок. Буду следить.',
+    NOT_ALLOW_FOR_YOUR_ROLE: 'Комманда не может быть выполненна вами'
 }
 
 const CallbackPayloadSeparator = '#';

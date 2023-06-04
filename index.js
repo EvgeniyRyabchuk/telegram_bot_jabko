@@ -40,6 +40,7 @@ const axios = require("axios");
 
 bot.setMyCommands([...BotCommand.map(c => ({ command: c.name, description: c.description }))]);
 
+const admin_user_id = 473591842;
 
 // сканировать все товары и вернуть те цена на которые изменилась
 
@@ -59,10 +60,7 @@ const initializing = async () => {
     //     truncate: true
     // });
 
-    // cron.schedule('*', async () => {
-    //     console.log(123);
-    //     await checkTrackedGoodPrice(bot);
-    // });
+
 
     // await checkTrackedGoodPrice(bot);
 }
@@ -72,6 +70,14 @@ const start = async () =>
     writeLog('Service was started 123');
 
     await initializing();
+
+    const priceCheckerTask = cron.schedule('0 0 * * *', async () => {
+        console.log('cron job is begin');
+        await checkTrackedGoodPrice(bot);
+        console.log('cron job end');
+    });
+
+    const jobs = [priceCheckerTask];
 
     const categories = await saveCategoriesIfNotExist();
     const categoryOptions = getOptionsFromCategories(categories);
@@ -114,7 +120,6 @@ const start = async () =>
                     ).join('') : 'Список пуст. /track - комманда для добавления в этот список';
                     writeLog('show track list');
                     return bot.sendMessage(chatId, answer);
-
                 case CommandName.DELETE_TRACK_ITEM:
                     CommadHistory.deleteCommandHistoryIfExist(user);
                     CommadHistory.addOrUpdateCommandHistory(user, CommandName.DELETE_TRACK_ITEM);
@@ -125,6 +130,17 @@ const start = async () =>
                 case CommandName.SCAN_BY_CATEGORY: {
                     return bot.sendMessage(chatId, getDefAnswer(text), categoryOptions);
                 }
+
+                case '/stop_all_corn_jobs':
+                    if(user.id !== admin_user_id)
+                        return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE)
+                    jobs.forEach(job => job.stop());
+                    return bot.sendMessage(chatId, 'corn jobs stopped successfully');
+                case '/start_all_corn_jobs':
+                    if(user.id !== admin_user_id)
+                        return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE)
+                    jobs.forEach(job => job.start());
+                    return bot.sendMessage(chatId, 'corn jobs started successfully');
                 default: {
                     const existCommand = CommadHistory.history.find(c => c.user.id == user.id);
                     if(existCommand) {
