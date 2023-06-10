@@ -10,6 +10,7 @@ Good.init({
     price_uah: { type: DataTypes.DECIMAL },
     price_usd: { type: DataTypes.DECIMAL },
     dollar: { type: DataTypes.DECIMAL },
+    article: { type: DataTypes.INTEGER, unique: true, nullInput: true}
     // category_id: { type: DataTypes.INTEGER, }
 },{
     sequelize,

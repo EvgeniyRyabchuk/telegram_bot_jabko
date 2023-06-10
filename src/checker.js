@@ -1,5 +1,6 @@
 
 const url = 'https://jabko.ua/zaporizhzhia/rus/';
+
 const { GoodsPageType, fromTextToMoney} = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
@@ -42,7 +43,6 @@ const saveCategoriesIfNotExist = async () => {
         const existCategory = await Category.findOne({
             where: { name: category.name }
         });
-        //TODO: fix problem when new category just renamed
         if(!existCategory)
             await Category.create({name: category.name, url: category.url});
     }
@@ -98,15 +98,23 @@ const parseGood = async (container,
     const price_uah = fromTextToMoney(container.querySelector(PageType.PriceUah).textContent);
 
     let price_usd = 0;
-    if(PageType == GoodsPageType.LIST)
+    let article = null;
+    if(PageType == GoodsPageType.LIST) {
         price_usd = (price_uah / currencyBuy).toFixed(2);
-    else if(PageType == GoodsPageType.SHOW)
+    }
+    else if(PageType == GoodsPageType.SHOW) {
+        article = container.querySelector('.product-info__flex-vendor').textContent;
         price_usd = fromTextToMoney(container.querySelector(PageType.PriceUsd).textContent);
+    }
 
     const [good, created] = await Good.findOrCreate({
         where: { name },
         defaults: {
-            name, url: PageType == GoodsPageType.LIST ? url : GoodUrl, price_uah, price_usd, dollar: currencyBuy, categoryId: categoryId
+            name,
+            url: PageType == GoodsPageType.LIST ? url : GoodUrl,
+            price_uah, price_usd, dollar: currencyBuy,
+            categoryId: categoryId,
+            article
         }
     });
     return {good, newPrice: {uah: price_uah, usd: price_usd}};
@@ -193,7 +201,6 @@ const getAllGoodsByCategory = async (category) => {
     } else {
         while (currentPage <= totalPage) {
             // try {
-            //     //TODO: get root folder path
             //     const path1 = `C:/Users/jekar/Desktop/telegram_bot_jabko/123.html`;
             //     document = fs.readFileSync(path1, {encoding: 'utf-8'});
             //     document = new JSDOM(`${document}`).window.document;

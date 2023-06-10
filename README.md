@@ -14,6 +14,7 @@
 //TODO: auto commit to github for always free hosting
 //TODO: pause for avoid spawn block 
 //TODO: callback_query read 
+//TODO: add price changes diagram 
 
 Heroku 
 

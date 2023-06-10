@@ -12,6 +12,10 @@ const CommandName = {
     DELETE_TRACK_ITEM: '/delete_track_item',
     INFO: '/info'
 }
+const AdminCommandName = {
+    STOP_ALL_CORN_JOBS: '/stop_all_corn_jobs',
+    START_ALL_CORN_JOBS: '/start_all_corn_jobs',
+}
 
 const currenDateTimeStamp = `===== ${moment().format('DD-MM-YYYY h:mm:ss a')} =====`
 
@@ -23,6 +27,7 @@ const StatusMessages = {
     COMMAND_NOT_FOUND: 'Комманда не найдена',
     NOT_CORRECT_DATA: 'Не верно введеные дынные. Попробуйте сново!',
     INFO_TIP: `Вы можете посмотреть список комманд с помощью команды ${CommandName.INFO}`,
+    TRACK_TIP: 'Список пуст. /track - комманда для добавления в этот список',
     SUCCESS_ADD_TO_TRACK_LIST: 'Ок. Буду следить.',
     NOT_ALLOW_FOR_YOUR_ROLE: 'Комманда не может быть выполненна вами'
 }
@@ -167,7 +172,8 @@ module.exports = {
     stickerList,
     getDefAnswer,
     getExtraQuestion,
-    getInfoMsg
+    getInfoMsg,
+    AdminCommandName
 }
 
 

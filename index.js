@@ -14,14 +14,17 @@ const {
     GoodsPageType,
     goodChangesMsgFormat,
     getOptionsFromCategories,
-    BotCommand, stickerList, getDefAnswer, getExtraQuestion, getInfoMsg
+    BotCommand, stickerList, getDefAnswer, getExtraQuestion, getInfoMsg, AdminCommandName
 } = require('./src/utills');
-const CommadHistory = require('./src/commandHistory');
+
+const CommandHistory = require('./src/commandHistory');
 
 require('dotenv').config();
 
 const TelegramApi = require('node-telegram-bot-api');
 const token = process.env.CHAT_BOT_TOKEN;
+const baseTargetUrl = process.env.BASE_TARGET_URL;
+
 const mode = process.env.MODE ?? 'development';
 const bot = new TelegramApi(token, {
     polling: true
@@ -60,17 +63,16 @@ const initializing = async () => {
     //     truncate: true
     // });
 
-
-
     // await checkTrackedGoodPrice(bot);
 }
 
 const start = async () =>
 {
-    writeLog('Service was started 123');
+    writeLog('Service was started');
 
     await initializing();
 
+    // every day scan
     const priceCheckerTask = cron.schedule('0 0 * * *', async () => {
         console.log('cron job is begin');
         await checkTrackedGoodPrice(bot);
@@ -87,14 +89,18 @@ const start = async () =>
         const chatId = msg.chat.id;
         const user = msg.from;
         // const member = await bot.getChatMember(chatId, user.id);
+        const dbUser = await User.findOne({ where: { id: user.id}});
+
+        // user must be registered in system
+        if(!dbUser && text != CommandName.START) return bot.sendMessage(chatId, '/start - to register');
 
         try {
             switch (text) {
                 case CommandName.START: {
-                    CommadHistory.deleteCommandHistoryIfExist(user);
+                    CommandHistory.deleteCommandHistoryIfExist(user);
                     await bot.sendSticker(chatId, stickerList.find(s => s.name == 'Hello').url);
-                    const userExist = await User.findOne({ where: { id: user.id}});
-                    if(!userExist) {
+
+                    if(!dbUser) {
                         await User.create({ id: user.id, chatId, name: user.first_name });
                         return bot.sendMessage(chatId, getDefAnswer(text));
                     } else {
@@ -102,12 +108,12 @@ const start = async () =>
                     }
                 }
                 case CommandName.INFO: {
-                    CommadHistory.deleteCommandHistoryIfExist(user);
+                    CommandHistory.deleteCommandHistoryIfExist(user);
                     return bot.sendMessage(chatId, getInfoMsg(), { parse_mode: 'HTML' });
                 }
                 case CommandName.TRACK: {
-                    CommadHistory.deleteCommandHistoryIfExist(user);
-                    CommadHistory.addOrUpdateCommandHistory(user, CommandName.TRACK);
+                    CommandHistory.deleteCommandHistoryIfExist(user);
+                    CommandHistory.addOrUpdateCommandHistory(user, CommandName.TRACK);
                     const def_answer = BotCommand.find(bc => bc.name === text).default_answer;
                     return bot.sendMessage(chatId, def_answer);
                 }
@@ -117,12 +123,12 @@ const start = async () =>
                     })).tracked_goods;
                     const answer = trackList.length > 0 ? trackList.map(
                         tl => `[${tl.good.id}]${tl.good.name} | Отслеживаете от ${tl.min_percent}%\n`
-                    ).join('') : 'Список пуст. /track - комманда для добавления в этот список';
+                    ).join('') : StatusMessages.TRACK_TIP;
                     writeLog('show track list');
                     return bot.sendMessage(chatId, answer);
                 case CommandName.DELETE_TRACK_ITEM:
-                    CommadHistory.deleteCommandHistoryIfExist(user);
-                    CommadHistory.addOrUpdateCommandHistory(user, CommandName.DELETE_TRACK_ITEM);
+                    CommandHistory.deleteCommandHistoryIfExist(user);
+                    CommandHistory.addOrUpdateCommandHistory(user, CommandName.DELETE_TRACK_ITEM);
                     return bot.sendMessage(chatId, getDefAnswer(text));
                 case CommandName.CATEGORY_LIST: {
                     return bot.sendMessage(chatId, getDefAnswer(text), categoryOptions);
@@ -131,24 +137,28 @@ const start = async () =>
                     return bot.sendMessage(chatId, getDefAnswer(text), categoryOptions);
                 }
 
-                case '/stop_all_corn_jobs':
-                    if(user.id !== admin_user_id)
+                case AdminCommandName.STOP_ALL_CORN_JOBS: {
+                    if (user.id !== admin_user_id)
                         return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE)
                     jobs.forEach(job => job.stop());
                     return bot.sendMessage(chatId, 'corn jobs stopped successfully');
-                case '/start_all_corn_jobs':
-                    if(user.id !== admin_user_id)
+                }
+                case AdminCommandName.START_ALL_CORN_JOBS: {
+                    if (user.id !== admin_user_id)
                         return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE)
                     jobs.forEach(job => job.start());
                     return bot.sendMessage(chatId, 'corn jobs started successfully');
+                }
                 default: {
-                    const existCommand = CommadHistory.history.find(c => c.user.id == user.id);
+                    const existCommand = CommandHistory.history.find(c => c.user.id == user.id);
                     if(existCommand) {
                         switch (existCommand.command) {
                             case CommandName.TRACK: {
-                                //TODO: validate link
                                 if(existCommand.step == 0)  {
-                                    CommadHistory.addOrUpdateCommandHistory(user, CommandName.TRACK, 1, {url: text });
+                                    if(!text.includes(baseTargetUrl))
+                                        return bot.sendMessage(chatId, StatusMessages.NOT_CORRECT_DATA);
+
+                                    CommandHistory.addOrUpdateCommandHistory(user, CommandName.TRACK, 1, {url: text });
                                     return bot.sendMessage(chatId, getExtraQuestion(CommandName.TRACK, 0));
                                 }
                                 if(existCommand.step == 1) {
@@ -176,25 +186,23 @@ const start = async () =>
                                         defaults: { goodId: good.id, userId: user.id, min_percent: minPercent}
                                     });
 
-                                    // обновить запись если такова уже существует в списке
+                                    // обновить запись если такова уже существует в списке (в случае повторного добавления в список пользователем)
                                     if(track.min_percent != minPercent) {
                                         await TrackedGood.update({ min_percent: minPercent }, {
                                             where:  {goodId: good.id, userId: user.id }}
                                         );
                                     }
 
-                                    //TODO: check if user exist
-                                    // await TrackedGood.create({ goodId: good.id, userId: user.id});
-
-                                    CommadHistory.deleteCommandHistoryIfExist(user);
+                                    CommandHistory.deleteCommandHistoryIfExist(user);
                                     return bot.sendMessage(chatId, StatusMessages.SUCCESS_ADD_TO_TRACK_LIST);
                                 }
                                 break;
                             }
-                            case CommandName.DELETE_TRACK_ITEM:
+                            case CommandName.DELETE_TRACK_ITEM: {
                                 const goodId = parseInt(text);
-                                await TrackedGood.destroy({ where: { goodId, userId: user.id }})
+                                await TrackedGood.destroy({where: {goodId, userId: user.id}})
                                 return bot.sendMessage(chatId, StatusMessages.SUCCESS_DELETED);
+                            }
                         }
                     }
                     return bot.sendMessage(chatId, StatusMessages.COMMAND_NOT_FOUND);
