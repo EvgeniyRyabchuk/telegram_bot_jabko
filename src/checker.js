@@ -58,28 +58,28 @@ const saveHtmlDoc = (html) => {
     })
 }
 const getJsDomByUrl = async (url, isSave = false) => {
-    const response = await axios.get(`${url}`, {
-        responseType: 'document',
-        headers: {
-            // cacheControl: 'no-cache',
-            // pragma: 'no-cache',
-            'Cache-Control': 'no-cache',
-            'Pragma': 'no-cache',
-            'Expires': '0',
-        }
-    });
-    const html = response.data;
-
-    // const response = await fetch(`${url}`, {
-    //     cache: 'no-cache',
+    // const response = await axios.get(`${url}`, {
+    //     responseType: 'document',
     //     headers: {
-    //         'Content-Type': "text/html",
+    //         // cacheControl: 'no-cache',
+    //         // pragma: 'no-cache',
     //         'Cache-Control': 'no-cache',
     //         'Pragma': 'no-cache',
-    //         // 'Content-Type': 'application/x-www-form-urlencoded',
-    //     },
-    // })
-    // const html = await response.text();
+    //         'Expires': '0',
+    //     }
+    // });
+    // const html = response.data;
+
+    const response = await fetch(`${url}`, {
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': "text/html",
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+        },
+    })
+    const html = await response.text();
 
     if(isSave)
         saveHtmlDoc(html);

@@ -2,7 +2,7 @@ const sequelize = require("./database");
 const {
     User,
     Category,
-    Good, TrackedGood
+    Good, TrackedGood, History
 } = require("./database/models");
 
 const {saveCategoriesIfNotExist, getAllGoodsByCategory, parseGood, getJsDomByUrl, commitPriceChange,
@@ -16,7 +16,6 @@ const {
     getOptionsFromCategories,
     BotCommand, stickerList, getDefAnswer, getExtraQuestion, getInfoMsg, AdminCommandName
 } = require('./src/utills');
-
 const CommandHistory = require('./src/commandHistory');
 
 require('dotenv').config();
@@ -39,6 +38,7 @@ const {where} = require("sequelize");
 const url = require("url");
 const {FORMAT} = require("sqlite3");
 const axios = require("axios");
+const {getGoodHistoryStatistic} = require("./src/chart");
 
 
 bot.setMyCommands([...BotCommand.map(c => ({ command: c.name, description: c.description }))]);
@@ -137,6 +137,13 @@ const start = async () =>
                     return bot.sendMessage(chatId, getDefAnswer(text), categoryOptions);
                 }
 
+                case CommandName.STATISTIC: {
+                    CommandHistory.deleteCommandHistoryIfExist(user);
+                    CommandHistory.addOrUpdateCommandHistory(user, CommandName.GET_STATISTIC_PHOTO);
+                    return bot.sendMessage(chatId, getDefAnswer(text));
+                }
+
+
                 case AdminCommandName.STOP_ALL_CORN_JOBS: {
                     if (user.id !== admin_user_id)
                         return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE)
@@ -202,6 +209,22 @@ const start = async () =>
                                 const goodId = parseInt(text);
                                 await TrackedGood.destroy({where: {goodId, userId: user.id}})
                                 return bot.sendMessage(chatId, StatusMessages.SUCCESS_DELETED);
+                            }
+                            case CommandName.GET_STATISTIC_PHOTO: {
+                                const trackedGood = await TrackedGood.findOne({
+                                    where: { userId: user.id, goodId: text },
+                                    include: [Good]
+                                });
+
+                                const histories = await History.findAll({
+                                    where: { goodId: trackedGood.goodId },
+                                    order: [
+                                        ['createdAt', 'ASC'],
+                                    ],
+                                });
+
+                                const graphicPhoto = getGoodHistoryStatistic(histories, trackedGood.good).toURL();
+                                return bot.sendPhoto(chatId, graphicPhoto);
                             }
                         }
                     }

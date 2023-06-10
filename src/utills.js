@@ -10,7 +10,9 @@ const CommandName = {
     TRACK_LIST: '/track_list',
     CATEGORY_LIST: '/category_list',
     DELETE_TRACK_ITEM: '/delete_track_item',
-    INFO: '/info'
+    INFO: '/info',
+    STATISTIC: '/statistic',
+    GET_STATISTIC_PHOTO: '/get_statistic_photo'
 }
 const AdminCommandName = {
     STOP_ALL_CORN_JOBS: '/stop_all_corn_jobs',
@@ -29,7 +31,8 @@ const StatusMessages = {
     INFO_TIP: `Вы можете посмотреть список комманд с помощью команды ${CommandName.INFO}`,
     TRACK_TIP: 'Список пуст. /track - комманда для добавления в этот список',
     SUCCESS_ADD_TO_TRACK_LIST: 'Ок. Буду следить.',
-    NOT_ALLOW_FOR_YOUR_ROLE: 'Комманда не может быть выполненна вами'
+    NOT_ALLOW_FOR_YOUR_ROLE: 'Комманда не может быть выполненна вами',
+
 }
 
 const CallbackPayloadSeparator = '#';
@@ -74,6 +77,11 @@ const BotCommand = [
         name: CommandName.INFO,
         description: 'Show your bot capability',
         default_answer: ''
+    },
+    {
+        name: CommandName.STATISTIC,
+        description: 'Send statistic image of price changes for specify good',
+        default_answer: 'Give me a good id'
     },
 ];
 
