@@ -28,5 +28,8 @@ heroku ps:scale bot=1
 heroku ps:scale web=0
 heroku ps:scale worker=1
 
+heroku run bash -a jabkobot
+
+
 
 https://crontab.guru/every-day

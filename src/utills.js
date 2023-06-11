@@ -17,6 +17,7 @@ const CommandName = {
 const AdminCommandName = {
     STOP_ALL_CORN_JOBS: '/stop_all_corn_jobs',
     START_ALL_CORN_JOBS: '/start_all_corn_jobs',
+    SHOW_LOGS: '/show_logs'
 }
 
 const currenDateTimeStamp = `===== ${moment().format('DD-MM-YYYY h:mm:ss a')} =====`
@@ -32,7 +33,8 @@ const StatusMessages = {
     TRACK_TIP: 'Список пуст. /track - комманда для добавления в этот список',
     SUCCESS_ADD_TO_TRACK_LIST: 'Ок. Буду следить.',
     NOT_ALLOW_FOR_YOUR_ROLE: 'Комманда не может быть выполненна вами',
-
+    NOT_FOUND: 'Not Found',
+    EMPTY_LIST: 'Empty list'
 }
 
 const CallbackPayloadSeparator = '#';
