@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "migrate:up": "npx sequelize-cli db:migrate",
+    "migrate:undo": "npx sequelize-cli db:migrate:undo:all"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,8 @@
     "node-telegram-bot-api": "^0.61.0",
     "sequelize": "^6.31.1",
     "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.1"
   }
 }
