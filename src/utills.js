@@ -1,5 +1,5 @@
 const moment = require("moment");
-const {User, TrackedGood, Good} = require("../database/models");
+const {User, TrackedGood, Good} = require("../db/models");
 const {getJsDomByUrl, parseGood, commitPriceChange} = require("./checker");
 
 

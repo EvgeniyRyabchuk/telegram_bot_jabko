@@ -1,9 +1,10 @@
-const sequelize = require("./database");
+
 const {
+    sequelize,
     User,
     Category,
     Good, TrackedGood, History
-} = require("./database/models");
+} = require("./db/models");
 
 
 const {saveCategoriesIfNotExist, getAllGoodsByCategory, parseGood, getJsDomByUrl, commitPriceChange,
@@ -115,9 +116,9 @@ const start = async () =>
                 case CommandName.TRACK_LIST:
                     const trackList = (await User.findOne({ where: {id: user.id}, include:
                         { model: TrackedGood, include: Good }
-                    })).tracked_goods;
+                    })).TrackedGoods;
                     const answer = trackList.length > 0 ? trackList.map(
-                        tl => `[${tl.good.id}]${tl.good.name} | Отслеживаете от ${tl.min_percent}%\n`
+                        tl => `[${tl.Good.id}]${tl.Good.name} | Отслеживаете от ${tl.min_percent}%\n`
                     ).join('') : StatusMessages.TRACK_TIP;
                     writeLog('show track list');
                     return bot.sendMessage(chatId, answer);

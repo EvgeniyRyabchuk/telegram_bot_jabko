@@ -19,7 +19,6 @@ module.exports = (sequelize, DataTypes) => {
     firstName: DataTypes.STRING,
     lastName: DataTypes.STRING,
     email: DataTypes.STRING,
-    categoryId: { type: DataTypes.INTEGER, foreignKey: true }
   }, {
     sequelize,
     modelName: 'Scan',

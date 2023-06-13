@@ -4,7 +4,7 @@ const storage = path.join(__dirname, '../database/test-db.sqlite');
 module.exports = {
   "development": {
     dialect: 'sqlite',
-    storage
+    storage,
   },
   "test": {
     "username": "user",

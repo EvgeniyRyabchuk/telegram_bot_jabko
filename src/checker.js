@@ -4,7 +4,7 @@ const url = 'https://jabko.ua/zaporizhzhia/rus/';
 const { GoodsPageType, fromTextToMoney} = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
-const {Category, Good, History, User, TrackedGood} = require("../database/models");
+const {Category, Good, History, User, TrackedGood} = require("../db/models");
 const path = require('path');
 const fs = require("fs");
 const { JSDOM } = jsdom;
@@ -117,7 +117,9 @@ const parseGood = async (container,
         defaults: {
             name,
             url: PageType == GoodsPageType.LIST ? url : GoodUrl,
-            price_uah, price_usd, dollar: currencyBuy,
+            price_uah,
+            price_usd,
+            dollar: currencyBuy,
             categoryId: categoryId,
             article
         }

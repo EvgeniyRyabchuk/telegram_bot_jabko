@@ -19,7 +19,6 @@ Good.hasMany(TrackedGood);
 
 Category.hasMany(Good);
 
-
 History.belongsTo(Good)
 
 TrackedGood.belongsTo(User, {
