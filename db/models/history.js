@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate({ Good }) {
       // define association here
-      this.belongsTo(Good);
+      this.belongsTo(Good, { foreignKey: 'goodId'});
     }
   }
   History.init({

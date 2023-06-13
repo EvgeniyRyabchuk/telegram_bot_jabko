@@ -11,8 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate({ Good, User, Command }) {
       // define association here
-      this.belongsTo(Good);
-      this.belongsTo(User);
+      this.belongsTo(Good, { foreignKey: 'goodId'});
+      this.belongsTo(User, { foreignKey: 'userId'});
     }
   }
   TrackedGood.init({

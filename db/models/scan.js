@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate({ Category }) {
       // define association here
-      this.belongsTo(Category);
+      this.belongsTo(Category, { foreignKey: 'categoryId'});
     }
   }
   Scan.init({
