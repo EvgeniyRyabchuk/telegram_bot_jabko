@@ -25,20 +25,20 @@ const db = new sqlite3.Database('./data/test.db', sqlite3.OPEN_READWRITE, (err) 
 // db.all(sql, [], (err, rows) => {
 //     if(err) return console.error(err.message); 
 //     rows.forEach((row) => {
-//         console.log(row); 
+//         console.logs(row);
 //     })
 // })
 
 // update 
 // sql = 'UPDATE users SET name = ? WHERE id = ?';
 // db.run(sql, ['123', '1'], (err) => {
-//     if(err) return console.log(err.message);
+//     if(err) return console.logs(err.message);
 // })
 
 //delete 
 // sql = 'DELETE FROM users WHERE id = ?';
 // db.run(sql, ['1'], (err) => {
-//     if(err) return console.log(err.message);
+//     if(err) return console.logs(err.message);
 // })
 
 

@@ -5,8 +5,6 @@ const {
     Category,
     Good, TrackedGood, History
 } = require("./db/models");
-
-
 const {saveCategoriesIfNotExist, getAllGoodsByCategory, parseGood, getJsDomByUrl, commitPriceChange,
     checkTrackedGoodPrice
 } = require("./src/checker");
@@ -47,7 +45,7 @@ bot.setMyCommands([...BotCommand.map(c => ({ command: c.name, description: c.des
 
 const admin_user_id = 473591842;
 
-
+console.log(baseTargetUrl);
 
 const start = async () =>
 {
@@ -69,10 +67,10 @@ const start = async () =>
     // return;
 
     // every day scan
-    const priceCheckerTask = cron.schedule('0 0 * * *', async () => {
-        console.log('cron job is begin');
+    const priceCheckerTask = cron.schedule('* * * * *', async () => {
+        console.log('\n ============= cron job is begin ============= \n');
         await checkTrackedGoodPrice(bot);
-        console.log('cron job end');
+        console.log('\n ============= cron job end ============= \n');
     });
 
     const jobs = [priceCheckerTask];
@@ -155,7 +153,7 @@ const start = async () =>
                 case AdminCommandName.SHOW_LOGS: {
                     if (user.id !== admin_user_id)
                         return bot.sendMessage(chatId, StatusMessages.NOT_ALLOW_FOR_YOUR_ROLE);
-                    return bot.sendDocument(chatId, './log.txt', { caption: "logs"});
+                    return bot.sendDocument(chatId, './logs/logs.txt', { caption: "logs"});
                 }
 
                 default: {

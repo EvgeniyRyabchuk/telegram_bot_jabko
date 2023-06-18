@@ -10,15 +10,13 @@
 - Запись всех продуктов по всем категориям в бд 
 
 
-//TODO: make migration file
-//TODO: auto commit to github for always free hosting
 //TODO: pause for avoid spawn block 
 //TODO: callback_query read
 
 Heroku 
 
 heroku login
-heroku create -a jabkobot
+heroku create -a jabkobot 
 heroku git:remote -a jabkobot
 git push heroku master
 

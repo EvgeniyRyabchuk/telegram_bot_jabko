@@ -1,7 +1,7 @@
 
 const url = 'https://jabko.ua/zaporizhzhia/rus/';
 
-const { GoodsPageType, fromTextToMoney} = require('./utills');
+const { GoodsPageType, fromTextToMoney, goodChangesMsgFormat} = require('./utills');
 const axios = require('axios')
 const jsdom = require("jsdom");
 const {Category, Good, History, User, TrackedGood} = require("../db/models");
@@ -14,7 +14,7 @@ const getAllCategories = async () => {
     // const limit2 = 3;
     // let document1 = (await getJsDomByUrl(`https://rock-star.com.ua/keyboards/digital-piano/?limit=${limit2}`)).window.document;
     // const containers1 = document1.querySelectorAll(".product-thumb");
-    // console.log(containers1.length, `limit = ${limit2}`);
+    // console.logs(containers1.length, `limit = ${limit2}`);
     //
     //
     // return;
@@ -165,7 +165,7 @@ const getGoods = async (totalPage, currentPage, category, currencyBuy, changedGo
     const document = (await getJsDomByUrl(`${category.url}?page=${currentPage}`, false)).window.document;
     const containers = document.querySelectorAll(".prod-item");
 
-    // console.log(containers.length, `totalPage = ${totalPage}`, `limit = ${limit}`);
+    // console.logs(containers.length, `totalPage = ${totalPage}`, `limit = ${limit}`);
     console.log(containers.length, `totalPage = ${totalPage}`);
 
     for (let container of containers) {
@@ -228,7 +228,7 @@ const getAllGoodsByCategory = async (category) => {
     // const limit2 = 3;
     // document = (await getJsDomByUrl(`https://rock-star.com.ua/keyboards/digital-piano/?limit=${limit2}`)).window.document;
     // const containers1 = document.querySelectorAll(".product-thumb");
-    // console.log(containers1.length, `limit = ${limit2}`);
+    // console.logs(containers1.length, `limit = ${limit2}`);
     console.log(' ================================= scan is end =================================');
     return changedGoods;
 }
@@ -237,17 +237,23 @@ const checkTrackedGoodPrice = async (bot) => {
     const users = await User.findAll({
         include: [{ model: TrackedGood, include: Good}]
     })
+    console.log("users: "+users.length);
+
     for (let user of users) {
-        const trackedGoods = user.tracked_goods;
+        const trackedGoods = user.TrackedGoods;
+        console.log("tracked: "+trackedGoods.length);
         const changes = [];
         for (let trackedGood of trackedGoods) {
-            const document = (await getJsDomByUrl(`${trackedGood.good.url}`, false)).window.document;
-            const {good, newPrice} = await parseGood(document, GoodsPageType.SHOW, null, trackedGood.good.categoryId, trackedGood.good.url);
+            const document = (await getJsDomByUrl(`${trackedGood.Good.url}`, false)).window.document;
+            const {good, newPrice} = await parseGood(document, GoodsPageType.SHOW, null, trackedGood.Good.categoryId, trackedGood.Good.url);
             await commitPriceChange(good, newPrice, changes, trackedGood.min_percent);
         }
+        console.log("changes: "+changes.length);
         if(changes.length > 0) {
             const msg = goodChangesMsgFormat(changes);
-            bot.sendMessage(user.chatId, msg, {parse_mode: 'HTML'});
+            msg.forEach((item) => {
+                bot.sendMessage(user.chatId, item, {parse_mode: 'HTML'});
+            });
         }
     }
 }

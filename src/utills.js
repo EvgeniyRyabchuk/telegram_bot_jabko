@@ -165,7 +165,7 @@ const getInfoMsg = () => {
     const title = 'Привет, этот бот призван помочь тебе купить по самой низкой цене\n';
     const content = 'Для этого ты можешь воспользоваться таким функционалом как: \n' +
         BotCommand.map(bc => `- ${bc.name} - ${bc.description}`).join('\n');
-    const footer = '\n === Приятного пользования! === \n';
+    const footer = '\n === Приятного пользования! === \n Автор: https://github.com/EvgeniyRyabchuk \n';
     return `${title}${content}${footer}`;
 }
 
@@ -206,8 +206,8 @@ const test = async () => {
     await sequelize.sync();
     User.create({ name: '123'});
     const users = await User.findAll();
-    console.log(users);
-    console.log('db is ready');
+    console.logs(users);
+    console.logs('db is ready');
 }
 
 
@@ -251,7 +251,7 @@ async function a(url) {
             credentials: "include",
 
         })
-        console.log(123);
+        console.logs(123);
     } catch(ex) {
         console.error(ex);
     }

@@ -3,7 +3,7 @@
 // var fs = require('fs');
 //     fs.appendFile('123.txt', 'Hello content!', function (err) {
 //     if (err) throw err;
-//     console.log('Saved!');
+//     console.logs('Saved!');
 // });
 
 
@@ -30,7 +30,7 @@ function getPrice()
                const price = i.querySelector(".goods-tile__price-value").textContent; 
                 
                list.push(`${title} - ${price} \r\n\n`); 
-               //console.log(`${title} - ${price}`);  
+               //console.logs(`${title} - ${price}`);
            }
            
            console.log('-----------------------------------------'); 
@@ -38,7 +38,7 @@ function getPrice()
            // var fs = require('fs'); 
            //     fs.appendFile('123.html', body.toString("utf-8"), function (err) {
            //     if (err) throw err; 
-           //     console.log('Saved!');
+           //     console.logs('Saved!');
            // });
    
        });
